@@ -3,6 +3,7 @@ import {Div} from './styled'
 
 import Hero from '../Hero/Hero'
 import Navbar from '../Navbar/Navbar'
+import Slider from './Carousel/Slider'
 
 function Home() {
     return(
@@ -11,11 +12,12 @@ function Home() {
             <Hero 
             image={'https://cdn.pixabay.com/photo/2016/02/19/10/00/laptop-1209008__340.jpg'}
             height={'70vh'}
-            title={'Welcome Home'}
-            sub={"ok"}
-            />       
+            title={'Hi, I am Madu Stanley Munachiso'}
+            sub={"A Front-End Developer"}
+            />
+            <Slider />       
             <div>
-                
+
             </div>
         </Div>
     )

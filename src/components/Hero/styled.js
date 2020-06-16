@@ -15,10 +15,32 @@ div {
     h1{
         font-weight: 900;
         font-size: 40px;
+        color: #f3dbcf;
+        :hover{
+            text-shadow: 2px 2px #ff0000;
+        }
+        
     }
     p {
         font-weight: 500;
         font-size: 30px;
+        color: #aac9ce;
+        :hover{
+            text-shadow: 2px 2px #ff0000;
+        }
+    }
+    button{
+        width: 15%;
+        padding: 15px;
+        font-size: 20px;
+        background: #f3dbcf;
+        border-radius: .5em;
+        @media (max-width: 1000px) {
+            width: 25%;
+        }
+        @media (max-width: 650px) {
+            width: 30%;
+        }
     }
 }
 `
