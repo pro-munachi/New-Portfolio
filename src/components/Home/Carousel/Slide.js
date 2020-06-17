@@ -10,18 +10,16 @@ class Slide extends React.Component {
     }
     render(){
         return (
-            <section>
-                {
-                    this.state.carousel.map((s, index) => 
-                    <div className={
-                        index === this.props.activeindex ? 'active' : 'slide'
-                    } key={index}>
-                        <h1>{s.title}</h1>
-                        <p>{s.description}</p>
-                    </div>
-                    )
-                }
-            </section>
+            <div>
+            {this.state.carousel.map((s, index) =>
+                <div className={
+                index === this.props.activeIndex ? 'active' : 'inactive'}
+                key={index} >
+                  <p>{s.title}</p>
+                  <h4 style={{textAlign: 'left'}}>- {s.description}</h4>
+                </div>
+            )}
+        </div>
         )
     }
 }

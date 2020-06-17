@@ -15,7 +15,8 @@ class Slider extends React.Component {
         super(props)
         this.state = {
             activeIndex: 0,
-            length: CarouselList.length
+            length: CarouselList.length,
+            
         }
         this.goToNextSlide = this.goToNextSlide.bind(this)
     }
@@ -65,6 +66,7 @@ class Slider extends React.Component {
     render() {
         return (
             <Div>
+                <div className='all'>
                 <div className='slider-items'>
                     <div className='left'>
                     <LeftArrow
@@ -78,9 +80,12 @@ class Slider extends React.Component {
                         />
                     </div>
                 </div>
+                <div className='right'>
                 <RightArrow
                 goToNextSlide={() => this.goToNextSlide()}
                 />
+                </div>
+                </div>
                 </div>
             </Div>
         )

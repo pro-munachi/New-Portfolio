@@ -5,14 +5,14 @@ const CarouselList = [
     },
     {
         title: 'we are very good',
-        description: 'ok'
+        description: 'ok i am good'
     },
     {
         title: 'we are very good',
-        description: 'ok'
+        description: 'ok 0000'
     },
     {
-        title: 'we are very good',
+        title: 'we hdgdf are very good',
         description: 'ok'
     },
 ]
