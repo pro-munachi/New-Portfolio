@@ -9,7 +9,10 @@ function Hero(props) {
             <div>     
                 <h1>{props.title}</h1>
                 <p>{props.sub}</p>
-                <NavLink to='/contact'><button>Contact Me</button></NavLink>
+                <div>
+                    <NavLink to='/contact'><button>{props.contact}</button></NavLink>
+                    <NavLink to='/portflio'><button>{props.portfolio}</button></NavLink>
+                </div>
             </div> 
         </Div>
     )
