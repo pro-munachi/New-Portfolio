@@ -14,7 +14,7 @@ div {
     top: 40%;
     h1{
         font-weight: 900;
-        font-size: 30px;
+        font-size: 45px;
         color: #f3dbcf;
         :hover{
             text-shadow: 2px 2px #aac9ce;
@@ -23,23 +23,28 @@ div {
     }
     p {
         font-weight: 500;
-        font-size: 22px;
+        font-size: 30px;
         color: #aac9ce;
         :hover{
             text-shadow: 2px 2px #f3dbcf;
         }
     }
-    button{
-        width: 10%;
-        padding: 5px;
-        font-size: 15px;
-        background: #f3dbcf;
-        border-radius: .5em;
-        @media (max-width: 1000px) {
-            width: 25%;
-        }
-        @media (max-width: 650px) {
-            width: 30%;
+    div {
+        display: flex;
+        justify-content: center;
+        button{
+            width: 150px;
+            margin: 20px;
+            height: 60px;
+            font-size: 15px;
+            background: #f3dbcf;
+            border-radius: .5em;
+            @media (max-width: 1000px) {
+                width: 25%;
+            }
+            @media (max-width: 650px) {
+                width: 30%;
+            }
         }
     }
 }
