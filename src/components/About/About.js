@@ -21,7 +21,7 @@ function About() {
             />   
             <Slider /><hr />
             <div className='but'>
-                <h1>Want To Me About Creating A Website?</h1>
+                <h1>Want To Talk To Me About Creating A Website?</h1>
                 <button>Get In Touch</button>
             </div>
         </Div>
