@@ -52,16 +52,13 @@ div {
         button{
             width: 180px;
             margin: 20px;
-            height: 60px;
+            height: 40px;
             font-size: 18px;
             font-weight: 500;
-            background: #aac9ce;
-            border: none;
+            background: transparent;
+            border: 1px solid #aac9ce;
             outline: none;
             color: white;
-            :hover {
-                width: 140px;
-            }
             @media (max-width: 750px) {
                 width: 100px;
                 font-size: 12px;
