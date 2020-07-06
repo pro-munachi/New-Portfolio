@@ -13,6 +13,7 @@ top: 10%;
     left: 100%;
     background: #aac9ce;
     height: 30vh;
+    width: 100%;
 .inactive {
     display: none;
 }

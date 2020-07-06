@@ -11,13 +11,30 @@ text-align: center;
 color: #f3dbcf;
 div {
     position: relative;
-    top: 40%;
+    top: 30%;
+    .social {
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        a {
+            margin: -10px;
+            padding: 0;
+        img {
+            width: 40%;
+            margin: -20px;
+            :hover {
+                width: 45%;
+            }
+        }
+        }
+    }
     h1{
         font-weight: 900;
         font-size: 45px;
         color: #f3dbcf;
-        :hover{
-            text-shadow: 2px 2px #aac9ce;
+        @media (max-width: 800px) {
+            font-size: 30px;
         }
         
     }
@@ -25,8 +42,8 @@ div {
         font-weight: 500;
         font-size: 30px;
         color: #aac9ce;
-        :hover{
-            text-shadow: 2px 2px #f3dbcf;
+        @media (max-width: 800px) {
+            font-size: 20px;
         }
     }
     div {
@@ -36,14 +53,36 @@ div {
             width: 150px;
             margin: 20px;
             height: 60px;
-            font-size: 15px;
-            background: #f3dbcf;
-            border-radius: .5em;
-            @media (max-width: 1000px) {
-                width: 25%;
+            font-size: 18px;
+            font-weight: 500;
+            background: #aac9ce;
+            border: none;
+            outline: none;
+            color: white;
+            :hover {
+                background: silver;
+                width: 140px;
             }
-            @media (max-width: 650px) {
-                width: 30%;
+            @media (max-width: 750px) {
+                width: 100px;
+                font-size: 12px;
+                height: 40px;
+            }
+        }
+        .but{
+            width: 150px;
+            margin: 20px;
+            height: 60px;
+            font-size: 18px;
+            font-weight: 500;
+            border: none;
+            outline: none;
+            background: #f3dbcf;
+            color: black;
+            @media (max-width: 750px) {
+                width: 100px;
+                font-size: 12px;
+                height: 40px;
             }
         }
     }
