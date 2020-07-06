@@ -9,6 +9,11 @@ export const Div = styled.div `
     button {
         width: 150px;
         height: 50px;
+        background: transparent;
+        border: 1px solid #aac9ce;
+        color: #aac9ce;
+        outline: none;
+        font-size: 15px;
     }
 }
 `

@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 
 import Navbar from '../Navbar/Navbar'
 import Slider from '../Home/Carousel/Slider'
@@ -22,7 +23,7 @@ function About() {
             <Slider /><hr />
             <div className='but'>
                 <h1>Want To Talk To Me About Creating A Website?</h1>
-                <button>Get In Touch</button>
+                <button><NavLink to='contact'>Get In Touch</NavLink></button>
             </div>
         </Div>
     )
