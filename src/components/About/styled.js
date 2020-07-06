@@ -11,9 +11,12 @@ export const Div = styled.div `
         height: 50px;
         background: transparent;
         border: 1px solid #aac9ce;
-        color: #aac9ce;
         outline: none;
-        font-size: 15px;
+        a {
+            font-size: 15px;
+            color: #aac9ce;
+            text-decoration: none;
+        }
     }
 }
 `

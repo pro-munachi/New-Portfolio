@@ -30,7 +30,7 @@ div {
         }
     }
     h1{
-        font-weight: 900;
+        font-weight: 400;
         font-size: 45px;
         color: #f3dbcf;
         @media (max-width: 800px) {
@@ -50,7 +50,7 @@ div {
         display: flex;
         justify-content: center;
         button{
-            width: 150px;
+            width: 180px;
             margin: 20px;
             height: 60px;
             font-size: 18px;
@@ -60,7 +60,6 @@ div {
             outline: none;
             color: white;
             :hover {
-                background: silver;
                 width: 140px;
             }
             @media (max-width: 750px) {
