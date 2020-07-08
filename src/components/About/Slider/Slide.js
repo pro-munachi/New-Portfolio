@@ -21,9 +21,8 @@ return (
     <Slide right>
       <Childrens>
           <div>
-              <h1>
-                  munachiso
-              </h1>
+              <img src='/Asset/img/img.jpg' alt=''/>
+              <h1>munachiso</h1>
           </div>
       </Childrens>
     </Slide>
