@@ -9,6 +9,7 @@ width: 100%;
 overflow: hidden;
 text-align: center;
 color: #f3dbcf;
+//*font-family: cursive;*//
 div {
     position: relative;
     top: 30%;
