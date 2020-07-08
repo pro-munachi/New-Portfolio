@@ -3,6 +3,8 @@ import makeCarousel from 'react-reveal/makeCarousel';
 import Slide from 'react-reveal/Slide';
 import {Container, Arrow} from './styled'
 
+import Childrens from './Children'
+
 
 const CarouselUI = ({ position, handleClick, children }) => (
     <Container>
@@ -17,16 +19,31 @@ function Slider() {
 return (
   <Carousel defaultWait={5000} /*wait for 5000 milliseconds*/ >
     <Slide right>
-      <div>
-        <h1>Slide 1</h1>
-        <p>Slide Description</p>
-      </div>
+      <Childrens>
+          <div>
+              <h1>
+                  munachiso
+              </h1>
+          </div>
+      </Childrens>
     </Slide>
     <Slide right>
-      <div>
-        <h1>Slide 2</h1>
-        <p>Slide Description</p>
-      </div>
+      <Childrens>
+          <div>
+              <h1>
+                  munachiso
+              </h1>
+          </div>
+      </Childrens>
+    </Slide>
+    <Slide right>
+      <Childrens>
+          <div>
+              <h1>
+                  munachiso
+              </h1>
+          </div>
+      </Childrens>
     </Slide>
   </Carousel>
 );
