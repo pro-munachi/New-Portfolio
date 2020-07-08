@@ -17,12 +17,17 @@ const Carousel = makeCarousel(CarouselUI);
 
 function Slider() {
 return (
-  <Carousel defaultWait={5000} /*wait for 5000 milliseconds*/ >
+  <Carousel defaultWait={8000} /*wait for 5000 milliseconds*/ >
     <Slide right>
       <Childrens>
           <div>
               <img src='/Asset/img/img.jpg' alt=''/>
-              <h1>munachiso</h1>
+              <div className='word'>
+                <h1>About Madu Stanley</h1>
+                <p>Madu Stanley Munachiso is a Front-End Developer who is from Imo State in Nigeria, He graduated with a Bsc from the prestigious
+                    Federal University Of Technology Owerri, Nigeria.
+              </p>
+              </div>
           </div>
       </Childrens>
     </Slide>
