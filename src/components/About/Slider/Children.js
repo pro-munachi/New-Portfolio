@@ -1,10 +1,11 @@
 import React from 'react'
+import {Child} from './styled'
 
 function Childrens(props) {
     return (
-        <div>
+        <Child>
             {props.children}
-        </div>
+        </Child>
     )
 }
 

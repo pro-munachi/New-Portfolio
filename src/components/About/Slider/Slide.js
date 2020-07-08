@@ -29,6 +29,7 @@ return (
     <Slide right>
       <Childrens>
           <div>
+              <img src='/Asset/img/img1.jpg' alt=''/>
               <h1>
                   munachiso
               </h1>
@@ -38,6 +39,7 @@ return (
     <Slide right>
       <Childrens>
           <div>
+              <img src='/Asset/img/img2.jpg' alt=''/>
               <h1>
                   munachiso
               </h1>

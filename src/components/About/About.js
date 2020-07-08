@@ -20,7 +20,7 @@ function About() {
             contact={'Contact Me'}
             portfolio={'Portfolio'}
             />   
-            <Slider /><hr />
+            <Slider />
             <div className='but'>
                 <h1>Want To Talk To Me About Creating A Website?</h1>
                 <button><NavLink to='contact'>Get In Touch</NavLink></button>

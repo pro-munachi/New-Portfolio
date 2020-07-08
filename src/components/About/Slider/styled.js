@@ -8,6 +8,8 @@ position: relative;
 width: ${width};
 height: ${height};
 overflow: hidden;
+background: #f3dbcf;
+box-sizing: border-box;
 `
 export const Arrow = styled.div`
   text-shadow: 1px 1px 1px #fff;
@@ -22,3 +24,10 @@ export const Arrow = styled.div`
   user-select: none;
   ${props => props.right ? css`left: 90%;` : css`left: 0%;`}
 `;
+
+export const Child = styled.div `
+text-align: center;
+img {
+    width: 10%;
+}
+`
