@@ -25,7 +25,7 @@ return (
               <div className='word'>
                 <h1>About Munachiso</h1>
                 <p>Madu Stanley Munachiso is a Front-End Developer who is from Imo State in Nigeria, He graduated with a Bsc from the prestigious
-                    Federal University Of Technology Owerri, Nigeria. he was introduced to web development by his elder brother who is also a programmer.
+                    Federal University Of Technology Owerri, Nigeria. 
               </p>
               </div>
           </div>
@@ -38,6 +38,9 @@ return (
               <h1>
                   About Munachiso
               </h1>
+              <p>As a child, i was intruiged by technology and always wanted to know more about new technological inventions. I was introduced to web development
+                by my elder brother who is a full-stack developer.
+              </p>
           </div>
       </Childrens>
     </Slide>

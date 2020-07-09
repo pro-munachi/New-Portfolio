@@ -15,8 +15,7 @@ function About() {
             <Hero 
             image={'https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366__340.jpg'}
             height={'70vh'}
-            title={'Hi, I am Madu Stanley Munachiso'}
-            sub={"A Front-End Developer"}
+            title={'About Madu Stanley Munachiso'}
             contact={'Contact Me'}
             portfolio={'Portfolio'}
             />   
