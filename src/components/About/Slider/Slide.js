@@ -23,7 +23,7 @@ return (
           <div>
               <img src='/Asset/img/img.jpg' alt=''/>
               <div className='word'>
-                <h1>About Madu Stanley</h1>
+                <h1>About Munachiso</h1>
                 <p>Madu Stanley Munachiso is a Front-End Developer who is from Imo State in Nigeria, He graduated with a Bsc from the prestigious
                     Federal University Of Technology Owerri, Nigeria. he was introduced to web development by his elder brother who is also a programmer.
               </p>
@@ -36,7 +36,7 @@ return (
           <div>
               <img src='/Asset/img/img1.jpg' alt=''/>
               <h1>
-                  munachiso
+                  About Munachiso
               </h1>
           </div>
       </Childrens>
