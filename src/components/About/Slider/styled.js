@@ -8,7 +8,6 @@ position: relative;
 width: ${width};
 height: ${height};
 overflow: hidden;
-background: #f3dbcf;
 box-sizing: border-box;
 `
 export const Arrow = styled.div`
@@ -29,5 +28,13 @@ export const Child = styled.div `
 text-align: center;
 img {
     width: 10%;
+    @media (max-width: 980px) {
+    width: 20%;
+  }
+}
+h1 {
+  @media (max-width: 980px) {
+    font-size: 19px;
+  }
 }
 `

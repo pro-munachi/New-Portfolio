@@ -48,9 +48,11 @@ li {
     margin: 0.5rem 0;
 }
 a {
-    color: teal;
+    color: #aac9ce;
     text-decoration: none;
     font-size: 1.2rem;
+    margin: 10px 0;
+    letter-spacing: 5px;
     :hover {
         color: orange;
     }
