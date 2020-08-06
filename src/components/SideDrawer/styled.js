@@ -36,11 +36,22 @@ max-width: 400px;
 z-index: 200;
 transform: translateX(-100%);
 transition: transform 0.3s ease-out;
+.image {
+    text-align: center;
+    position: relative;
+    top: 7%;
+    img {
+        width: 40%;
+        border-radius: 15em;
+    }
+}
 ul {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    top: -25%;
 }
 li {
     list-style: none;
@@ -48,7 +59,7 @@ li {
     margin: 0.5rem 0;
 }
 a {
-    color: #aac9ce;
+    color: teal;
     text-decoration: none;
     font-size: 1.2rem;
     margin: 10px 0;

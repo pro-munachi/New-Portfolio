@@ -9,12 +9,20 @@ function SideDrawer(props) {
     }
     return (
     <Nav>
+        
         <nav className={drawerClasses}>
+            <div className='image'>
+                <img src='/Asset/img/img.jpg' alt=''/>
+            </div> <hr style={{ marginTop: '70px' }} />
             <ul>
                 <NavLink to='/'>Home</NavLink>
+                <hr style={{ marginRight: '' }} />
                 <NavLink to='/about'>About</NavLink>
+                <hr style={{ marginRight: '40px' }} />
                 <NavLink to='/portfolio'>Portfolio</NavLink>
+                <hr style={{ marginRight: '40px' }} />
                 <NavLink to='/contact'>Contact</NavLink>
+                <hr style={{ marginRight: '40px' }} />
             </ul>
         </nav>
      </Nav>
