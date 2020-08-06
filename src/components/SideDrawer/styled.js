@@ -50,8 +50,11 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+}
+.ul {
     position: relative;
-    top: -25%;
+    top: 8%;
 }
 li {
     list-style: none;
