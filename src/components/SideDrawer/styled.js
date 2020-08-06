@@ -56,6 +56,15 @@ ul {
     position: relative;
     top: 8%;
 }
+.social {
+    margin-top: 15%;
+    a {
+        text-align: center;
+        img {
+            width: 15%;
+        }
+    }
+}
 li {
     list-style: none;
     color: teal;
