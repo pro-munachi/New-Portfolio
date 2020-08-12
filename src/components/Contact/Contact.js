@@ -2,16 +2,15 @@ import React from 'react'
 
 import Navbar from '../Navbar/Navbar'
 import {Div} from './styled'
+import Form from './Form'
 
 function Contact() {
     return(
         <Div>
-            {/*<Navbar 
+            <Navbar 
             bgcolor={'#aac9ce'}
-            color={'black'}/>*/}
-            <div className='head'>
-                <h1>CONTACT<span>.</span></h1>
-            </div>
+            color={'black'}/><br /><br /><br /><br /><br /><br />
+            <Form />
         </Div>
     )
 }

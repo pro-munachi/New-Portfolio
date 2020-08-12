@@ -2,8 +2,16 @@ import styled from 'styled-components'
 
 
 export const Div = styled.div `
-.head {
-    position: relative;
-    top: 20%;
+
+`
+
+export const Contacts = styled.div `
+.contact {
+    .head {
+        text-align: center;
+        h1 {
+            font-size: 45px;
+        }
+    }
 }
 `
