@@ -31,10 +31,13 @@ header {
         margin: 0 25px;
     }
     .logo {
-        font-size: 25px;
+        font-size: 23px;
         color: #aac9ce;
         margin-left: 2em;
-        margin-top: -5px;
+        margin-top: -35px;
+        @media (max-width: 766px) {
+            margin-top: -42px;
+        }
     }
 }
 
