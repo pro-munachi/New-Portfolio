@@ -3,13 +3,12 @@ import styled, {css} from 'styled-components'
 const width = '100%', height = '300px'
 
 export const Container = styled.div `
-border: 1px solid #f3dbcf;
+border-bottom: 1px solid #f3dbcf;
 position: relative;
 width: ${width};
 height: ${height};
 overflow: hidden;
 box-sizing: border-box;
-background: whitesmoke;
 `
 export const Arrow = styled.div`
   text-shadow: 1px 1px 1px #fff;

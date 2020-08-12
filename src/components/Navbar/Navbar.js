@@ -30,7 +30,8 @@ class Navbar extends React.Component {
     }
   return (
     <div style={{height: '100%'}}>
-     <Toolbar drawerClickHandler={this.drawerToggleClickHandler} bgcolor={this.props.bgcolor}/> 
+     <Toolbar drawerClickHandler={this.drawerToggleClickHandler} bgcolor={this.props.bgcolor}
+     color={this.props.color}/> 
      <SideDrawer show={this.state.SideDrawerOpen}/>
      {backdrop}
     </div>

@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 
 export const Div = styled.div `
+height: auto;
+.slid {
+    margin-top: 59px;
+}
 .but {
     text-align: center;
     h1 {

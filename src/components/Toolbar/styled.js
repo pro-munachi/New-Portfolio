@@ -7,7 +7,7 @@ header {
     position: fixed;
     width: 100%;
     height: 10%;
-    background: transparent;
+    background: ${props => props.bgcolor};
     .flex {
         display: flex;
         justify-content: space-between;
@@ -24,7 +24,7 @@ header {
     a {
         text-decoration: none;
         list-style: none;
-        color: #f3dbcf;
+        color: ${props => props.color};
         font: Arial;
         letter-spacing: 3px;
         padding: 0 2px;
