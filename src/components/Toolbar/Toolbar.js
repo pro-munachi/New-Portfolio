@@ -8,7 +8,7 @@ import DrawerToggleButton from '../SideDrawer/DrawerToggleButton'
 class Toolbar extends React.Component {
     render() {
     return (
-        <Wrapper>
+        <Wrapper bgcolor={this.props.bgcolor}>
             <header>
                 <nav>
                    

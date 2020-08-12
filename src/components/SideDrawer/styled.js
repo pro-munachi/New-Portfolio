@@ -39,7 +39,7 @@ transition: transform 0.3s ease-out;
 .image {
     text-align: center;
     position: relative;
-    top: 7%;
+    top: 4%;
     img {
         width: 40%;
         border-radius: 15em;
@@ -54,7 +54,7 @@ ul {
 }
 .ul {
     position: relative;
-    top: 8%;
+    top: 2%;
 }
 .social {
     margin-top: 15%;
@@ -74,7 +74,7 @@ a {
     color: teal;
     text-decoration: none;
     font-size: 1.2rem;
-    margin: 10px 0;
+    margin: 5px 0;
     letter-spacing: 5px;
     :hover {
         color: orange;

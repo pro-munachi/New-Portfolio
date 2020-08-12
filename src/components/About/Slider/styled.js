@@ -9,6 +9,7 @@ width: ${width};
 height: ${height};
 overflow: hidden;
 box-sizing: border-box;
+background: whitesmoke;
 `
 export const Arrow = styled.div`
   text-shadow: 1px 1px 1px #fff;

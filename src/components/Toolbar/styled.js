@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.header `
+background: ${props => props.bgcolor};
 header {
     top: 0;
     position: fixed;
