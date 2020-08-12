@@ -6,12 +6,13 @@ flex-direction: column;
 justify-content: space-evenly;
 height: 30px;
 width: 30px;
-margin-top: 1em;
+margin-top: 2em;
 background: transparent;
 border: none;
 cursor: pointer;
 padding: 0;
 box-sizing: border-box;
+outline: none;
 :focus {
     outline: none;
 }
@@ -55,6 +56,7 @@ ul {
 .ul {
     position: relative;
     top: 2%;
+    left: 0;
 }
 .social {
     margin-top: 15%;
@@ -67,15 +69,16 @@ ul {
 }
 li {
     list-style: none;
-    color: teal;
     margin: 0.5rem 0;
 }
 a {
-    color: teal;
+    color: black;
     text-decoration: none;
     font-size: 1.2rem;
-    margin: 5px 0;
+    margin: 10px 0;
     letter-spacing: 5px;
+    border-bottom: 1px solid black;
+    width: 100%;
     :hover {
         color: orange;
     }

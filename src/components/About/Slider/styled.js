@@ -25,7 +25,13 @@ export const Arrow = styled.div`
 `;
 
 export const Child = styled.div `
-text-align: center;
+  text-align: center;
+  width: 70%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
 img {
     width: 10%;
     @media (max-width: 980px) {

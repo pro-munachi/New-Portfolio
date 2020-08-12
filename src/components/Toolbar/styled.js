@@ -27,16 +27,16 @@ header {
         color: ${props => props.color};
         font: Arial;
         letter-spacing: 3px;
-        padding: 0 2px;
+        padding: 6px 2px;
         margin: 0 25px;
     }
     .logo {
         font-size: 23px;
         color: #aac9ce;
         margin-left: 2em;
-        margin-top: -35px;
+        margin-top: -30px;
         @media (max-width: 766px) {
-            margin-top: -42px;
+            margin-top: -30px;
         }
     }
 }
