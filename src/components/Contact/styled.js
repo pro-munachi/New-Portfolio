@@ -13,5 +13,12 @@ export const Contacts = styled.div `
             font-size: 45px;
         }
     }
+    .flex {
+        .h {
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
 }
 `

@@ -14,7 +14,7 @@ class Form extends React.Component {
                     </div>
                     <div className='flex'>
                         <div>
-                            <div>
+                            <div className='h'>
                                 <h2>For any enquiries, or just to say hello, get in touch and contact me.</h2>
                             </div>
                             
@@ -46,7 +46,7 @@ class Form extends React.Component {
                         </div>
                         <div className='for'>
                             <form>
-                                
+
                             </form>
 
                         </div>
