@@ -72,19 +72,38 @@ class Form extends React.Component {
                         </div>
                     </div><br />
                     <div className='for'>
-                        <div className='contact-form'>
-                            <form>
-                                <div className='input-fields'>
-                                        <input type='text' className='input' placeholder='Name'/>
-                                        <input type='email' className='input'placeholder='Email Address' />
-                                        <input type='number' className='input'placeholder='Phone' />
-                                        <input type='text' className='input' placeholder='Subject'/>
+                        <div className='container'>
+                            <h2>Contact Me</h2>
+                            <div className='row100'>
+                                <div className='col'>
+                                    <div className='inputBox'>
+                                        <input type='text' name='' required='required'/>
+                                        <span className='text'>First Name</span>
+                                        <span className='line'></span>
+                                    </div>
                                 </div>
-                                <div className='msg'>
-                                    <textarea placeholder='Message'></textarea>
+                                <div className='col'>
+                                    <div className='inputBox'>
+                                        <input type='text' name='' required='required'/>
+                                        <span className='text'>Last Name</span>
+                                        <span className='line'></span>
+                                    </div>
                                 </div>
-                                <button className='btn'>Send</button>
-                            </form>
+                                <div className='col'>
+                                    <div className='inputBox'>
+                                        <input type='email' name='' required='required'/>
+                                        <span className='text'>Email</span>
+                                        <span className='line'></span>
+                                    </div>
+                                </div>
+                                <div className='col'>
+                                    <div className='inputBox'>
+                                        <input type='text' name='' required='required'/>
+                                        <span className='text'>Phone</span>
+                                        <span className='line'></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
