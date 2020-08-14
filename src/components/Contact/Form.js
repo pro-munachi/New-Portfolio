@@ -1,11 +1,22 @@
 import React from 'react'
+import GoogleMapReact from 'google-map-react';
 
 import {Contacts} from './styled'
 import SimpleMap from './Simplemap'
 
-
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class Form extends React.Component {
+
+    static defaultProps = {
+        center: {
+          lat: 5.5255,
+          lng: 7.0230
+        },
+        zoom: 11
+      };
+
+
     render() {
         return (
             <Contacts>
@@ -46,28 +57,24 @@ class Form extends React.Component {
                             </div>
                         </div>
                         <div className='map'>
-                            <SimpleMap />
+                            
                         </div>
                     </div>
-                    {/*<div>
-                    <form>
-                                <div className='inputbox'>
-                                    <input type='text' />
-                                    <label>Name</label>
-                                </div>
-                                <div className='inputbox'>
-                                    <input type='Email' />
-                                    <label>E-mail</label>
-                                </div>
-                                <div className='inputbox'>
-                                    <input type='text' />
-                                    <label>Subject</label>
-                                </div>
-                                <div className='inputbox'>
-                                    <textarea />
-                                </div>
-                            </form>
-                    </div>*/}
+                    <div>
+                    <div style={{ height: '100vh', width: '100%' }}>
+        <GoogleMapReact
+          bootstrapURLKeys={{ key: 'AIzaSyBoO60g9tkKE-G_p3Uhsro_XDU4AdjIM70' }}
+          defaultCenter={this.props.center}
+          defaultZoom={this.props.zoom}
+        >
+          <AnyReactComponent
+            lat={5.5255}
+            lng={7.0230}
+            text="My Marker"
+          />
+        </GoogleMapReact>
+      </div>
+                    </div>
                 </div>
             </Contacts>
         )
