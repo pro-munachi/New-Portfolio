@@ -1,6 +1,7 @@
 import React from 'react'
 
 import {Contacts} from './styled'
+import SimpleMap from './Simplemap'
 
 
 
@@ -44,8 +45,12 @@ class Form extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className='for'>
-                            <form>
+                        <div className='map'>
+                            <SimpleMap />
+                        </div>
+                    </div>
+                    {/*<div>
+                    <form>
                                 <div className='inputbox'>
                                     <input type='text' />
                                     <label>Name</label>
@@ -62,9 +67,7 @@ class Form extends React.Component {
                                     <textarea />
                                 </div>
                             </form>
-
-                        </div>
-                    </div>
+                    </div>*/}
                 </div>
             </Contacts>
         )
