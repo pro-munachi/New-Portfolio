@@ -18,9 +18,17 @@ export const Contacts = styled.div `
     }
     .for {
         position: absolute;
-        top: 9%;
-        transform: translateY(-50%);
-        width:
+        width: 100%;
+        padding: 0 20px;
+        .contact-form {
+            max-width: 550px;
+            margin: 0 auto;
+            background: rgba(0,0,0,0.8);
+            padding: 30px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+        }
     }
     .flex {
         display: flex;

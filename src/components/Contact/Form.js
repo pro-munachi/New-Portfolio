@@ -70,7 +70,7 @@ class Form extends React.Component {
                                 </GoogleMapReact>
                             </div>
                         </div>
-                    </div>
+                    </div><br />
                     <div className='for'>
                         <div className='contact-form'>
                             <form>
