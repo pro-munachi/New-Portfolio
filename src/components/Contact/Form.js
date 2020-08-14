@@ -71,8 +71,21 @@ class Form extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div>
-               
+                    <div className='for'>
+                        <div className='contact-form'>
+                            <form>
+                                <div className='input-fields'>
+                                        <input type='text' className='input' placeholder='Name'/>
+                                        <input type='email' className='input'placeholder='Email Address' />
+                                        <input type='number' className='input'placeholder='Phone' />
+                                        <input type='text' className='input' placeholder='Subject'/>
+                                </div>
+                                <div className='msg'>
+                                    <textarea placeholder='Message'></textarea>
+                                </div>
+                                <button className='btn'>Send</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </Contacts>

@@ -16,11 +16,18 @@ export const Contacts = styled.div `
             font-size: 45px;
         }
     }
+    .for {
+        position: absolute;
+        top: 9%;
+        transform: translateY(-50%);
+        width:
+    }
     .flex {
         display: flex;
         justify-content: space-evenly;
         .word {
             width: 50%;
+            border: 1px solid black;
             .h {
                 h1 {
                     font-size: 30px;
