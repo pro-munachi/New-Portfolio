@@ -7,6 +7,9 @@ export const Div = styled.div `
 
 export const Contacts = styled.div `
 .contact {
+    img{
+        width: 2%;
+    }
     .head {
         text-align: center;
         h1 {
@@ -14,10 +17,26 @@ export const Contacts = styled.div `
         }
     }
     .flex {
-        .h {
-            h1 {
-                font-size: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        .word {
+            width: 50%;
+            .h {
+                h1 {
+                    font-size: 30px;
+                }
             }
+            .email {
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .add {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .for {
+            
         }
     }
 }
