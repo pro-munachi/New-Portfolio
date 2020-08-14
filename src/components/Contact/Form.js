@@ -2,9 +2,8 @@ import React from 'react'
 import GoogleMapReact from 'google-map-react';
 
 import {Contacts} from './styled'
-import SimpleMap from './Simplemap'
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const AnyReactComponent = ({ text }) => <div style={{color: 'blue'}}>{text}</div>;
 
 class Form extends React.Component {
 
@@ -57,23 +56,23 @@ class Form extends React.Component {
                             </div>
                         </div>
                         <div className='map'>
-                            
+                            <div style={{ height: '60vh', width: '100%' }}>
+                                <GoogleMapReact
+                                bootstrapURLKeys={{ key: 'AIzaSyBoO60g9tkKE-G_p3Uhsro_XDU4AdjIM70' }}
+                                defaultCenter={this.props.center}
+                                defaultZoom={this.props.zoom}
+                                >
+                                <AnyReactComponent
+                                    lat={5.5255}
+                                    lng={7.0230}
+                                    text="My Marker"
+                                />
+                                </GoogleMapReact>
+                            </div>
                         </div>
                     </div>
                     <div>
-                    <div style={{ height: '100vh', width: '100%' }}>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: 'AIzaSyBoO60g9tkKE-G_p3Uhsro_XDU4AdjIM70' }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
-        >
-          <AnyReactComponent
-            lat={5.5255}
-            lng={7.0230}
-            text="My Marker"
-          />
-        </GoogleMapReact>
-      </div>
+               
                     </div>
                 </div>
             </Contacts>

@@ -35,8 +35,8 @@ export const Contacts = styled.div `
                 justify-content: space-between;
             }
         }
-        .for {
-            
+        .map {
+           width: 50%; 
         }
     }
 }
