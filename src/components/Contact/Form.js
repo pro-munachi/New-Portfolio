@@ -26,7 +26,7 @@ class Form extends React.Component {
                     </div>
                     <div className='flex'>
                         <div className='word'>
-                            
+                            <h2>Contact Me</h2>
                             <div className='email'>
                                 <div>
                                     <strong>Phone</strong>
@@ -39,11 +39,11 @@ class Form extends React.Component {
                             </div>
                             
                             <div className='add'>
-                                <div>
+                                <div className='ad'>
                                     <strong>Address</strong>
                                     <p>No 2, Onyeagorom street, Akwakuma, Owerri, Imo State, Nigeria </p>
                                 </div>
-                                <div>
+                                <div className='soc'>
                                     <div><strong>Social Media</strong></div>
                                     <div>
                                         <a href='https://twitter.com/Munachiiso?s=09' target='_blank' rel='noopener noreferrer'> TW </a>
