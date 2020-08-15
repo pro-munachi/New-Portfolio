@@ -89,19 +89,35 @@ class Form extends React.Component {
                                         <span className='line'></span>
                                     </div>
                                 </div>
+                            </div>
+                            <div className='row100'>
                                 <div className='col'>
                                     <div className='inputBox'>
-                                        <input type='email' name='' required='required'/>
+                                        <input type='Email' name='' required='required'/>
                                         <span className='text'>Email</span>
                                         <span className='line'></span>
                                     </div>
                                 </div>
                                 <div className='col'>
                                     <div className='inputBox'>
-                                        <input type='text' name='' required='required'/>
+                                        <input type='number' name='' required='required'/>
                                         <span className='text'>Phone</span>
                                         <span className='line'></span>
                                     </div>
+                                </div>
+                            </div>
+                            <div className='row100'>
+                                <div className='col'>
+                                    <div className='inputBox textarea'>
+                                        <textarea required='required'></textarea>
+                                        <span className='text'>Type Your Message Here</span>
+                                        <span className='line'></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='row100'>
+                                <div className='col'>
+                                    <input type='submit' value='send' />
                                 </div>
                             </div>
                         </div>
