@@ -44,13 +44,13 @@ class Form extends React.Component {
                                     <p>No 2, Onyeagorom street, Akwakuma, Owerri, Imo State, Nigeria </p>
                                 </div>
                                 <div>
-                                    <div><strong>Contact Me</strong></div>
+                                    <div><strong>Social Media</strong></div>
                                     <div>
-                                        <a href='https://twitter.com/Munachiiso?s=09' target='_blank' rel='noopener noreferrer'> <img src='/Asset/Icon/twitter.png' alt=''/></a>
-                                        <a href='https://linkedin.com/in/munachiso' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/link.png' alt=''/> </a> 
-                                        <a href='https://www.instagram.com/munachiiso/' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/instagram.png' alt=''/></a>
-                                        <a href='https://m.facebook.com/madu.stanley.71' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/face.png' alt=''/></a>
-                                        <a href='https://github.com/pro-munachi' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/github.png' alt=''/></a>
+                                        <a href='https://twitter.com/Munachiiso?s=09' target='_blank' rel='noopener noreferrer'> TW </a>
+                                        <a href='https://linkedin.com/in/munachiso' target='_blank'  rel='noopener noreferrer'> LN </a> 
+                                        <a href='https://www.instagram.com/munachiiso/' target='_blank'  rel='noopener noreferrer'> IN </a>
+                                        <a href='https://m.facebook.com/madu.stanley.71' target='_blank'  rel='noopener noreferrer'> FB </a>
+                                        <a href='https://github.com/pro-munachi' target='_blank'  rel='noopener noreferrer'> GH </a>
                                     </div>
                                 </div>
                             </div>
