@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const Div = styled.div `
 height: auto;
+background: black;
+color: white;
 .slid {
     margin-top: 59px;
 }
