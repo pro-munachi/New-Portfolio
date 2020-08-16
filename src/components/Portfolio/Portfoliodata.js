@@ -1,4 +1,4 @@
-export const PortfolioData = [
+const PortfolioData = [
     {
         id: 1,
         head: 'Immaculate.com',
@@ -21,3 +21,5 @@ export const PortfolioData = [
         link: '',
     }
 ]
+
+export default PortfolioData
