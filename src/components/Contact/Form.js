@@ -25,6 +25,20 @@ class Form extends React.Component {
                                             <input type='text' />
                                             <span>First Name</span>
                                         </div>
+                                        <div className='last'>
+                                            <input type='text' />
+                                            <span>Last Name</span>
+                                        </div>
+                                    </div>
+                                    <div className='name'>
+                                        <div className='first'>
+                                            <input type='text' />
+                                            <span>First Name</span>
+                                        </div>
+                                        <div className='last'>
+                                            <input type='text' />
+                                            <span>Last Name</span>
+                                        </div>
                                     </div>
                                 </div>
                             </form>
