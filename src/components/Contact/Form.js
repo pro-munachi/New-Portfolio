@@ -1,20 +1,9 @@
 import React from 'react'
-import GoogleMapReact from 'google-map-react';
 
 import {Contacts} from './styled'
 
-const AnyReactComponent = ({ text }) => <div style={{color: 'blue'}}>{text}</div>;
 
 class Form extends React.Component {
-
-    static defaultProps = {
-        center: {
-          lat: 5.5255,
-          lng: 7.0230
-        },
-        zoom: 11
-      };
-
 
     render() {
         return (
@@ -24,53 +13,27 @@ class Form extends React.Component {
                         <h1>CONTACT<span>.</span></h1>
                         <h2>For any enquiries, or just to say hello, get in touch and contact me.</h2>
                     </div>
-                    <div className='flex'>
-                        <div className='word'>
-                            <h2>Contact Me</h2>
-                            <div className='email'>
+                    <div className='container'>
+                        <div className='back'>
+                            <form>
                                 <div>
-                                    <strong>Phone</strong>
-                                    <p>+234 8165 9987 08</p>
+                                    <h2>Send a Message</h2>
                                 </div>
-                                <div>
-                                    <strong>Email</strong>
-                                    <p>Madustanley1@gmail.com</p>
-                                </div>
-                            </div>
-                            
-                            <div className='add'>
-                                <div className='ad'>
-                                    <strong>Address</strong>
-                                    <p>No 2, Onyeagorom street, Akwakuma, Owerri, Imo State, Nigeria </p>
-                                </div>
-                                <div className='soc'>
-                                    <div><strong>Social Media</strong></div>
-                                    <div>
-                                        <a href='https://twitter.com/Munachiiso?s=09' target='_blank' rel='noopener noreferrer'> TW </a>
-                                        <a href='https://linkedin.com/in/munachiso' target='_blank'  rel='noopener noreferrer'> LN </a> 
-                                        <a href='https://www.instagram.com/munachiiso/' target='_blank'  rel='noopener noreferrer'> IN </a>
-                                        <a href='https://m.facebook.com/madu.stanley.71' target='_blank'  rel='noopener noreferrer'> FB </a>
-                                        <a href='https://github.com/pro-munachi' target='_blank'  rel='noopener noreferrer'> GH </a>
+                                <div className='input'>
+                                    <div className='name'>
+                                        <div className='first'>
+                                            <input type='text' />
+                                            <span>First Name</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
-                        <div className='map'>
-                            <div style={{ height: '60vh', width: '100%' }}>
-                                <GoogleMapReact
-                                bootstrapURLKeys={{ key: 'AIzaSyBoO60g9tkKE-G_p3Uhsro_XDU4AdjIM70' }}
-                                defaultCenter={this.props.center}
-                                defaultZoom={this.props.zoom}
-                                >
-                                <AnyReactComponent
-                                    lat={5.5255}
-                                    lng={7.0230}
-                                    text="My Marker"
-                                />
-                                </GoogleMapReact>
-                            </div>
+                        <div className='side'>
+
                         </div>
-                    </div><br />
+                    </div>
+                    {/*
                     <div className='for'>
                         <div className='container'>
                             <h2>Contact Me</h2>
@@ -121,7 +84,7 @@ class Form extends React.Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </Contacts>
         )

@@ -119,6 +119,8 @@ export const FlexStyle = styled.div`
     flex-wrap: wrap;
     margin: 1em auto 6em;
     width: 100%;
+    background: black;
+    padding-top: 60px;
 
     @media (min-width: 760px){
         margin: auto;
