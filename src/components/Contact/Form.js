@@ -23,28 +23,50 @@ class Form extends React.Component {
                                     <div className='name'>
                                         <div className='first'>
                                             <input type='text' />
-                                            <span>First Name</span>
+                                            <span className='text'>First Name</span>
+                                            <span className='line'></span>
                                         </div>
                                         <div className='last'>
                                             <input type='text' />
-                                            <span>Last Name</span>
+                                            <span className='text'>Last Name</span>
+                                            <span className='line'></span>
                                         </div>
                                     </div>
-                                    <div className='name'>
-                                        <div className='first'>
-                                            <input type='text' />
-                                            <span>First Name</span>
+                                    <div className='mobile'>
+                                        <div className='email'>
+                                            <input type='email' />
+                                            <span className='text'>Email</span>
+                                            <span className='line'></span>
                                         </div>
-                                        <div className='last'>
+                                        <div className='phone'>
                                             <input type='text' />
-                                            <span>Last Name</span>
+                                            <span className='text'>Phone Number</span>
+                                            <span className='line'></span>
                                         </div>
+                                    </div>
+                                    <div>
+                                        <textarea></textarea>
+                                        <span className='text'>Write Your Message Here</span>
+                                        <span className='line'></span>
                                     </div>
                                 </div>
                             </form>
                         </div>
                         <div className='side'>
-
+                            <div>
+                                <h2>Contact Info</h2>
+                            </div>
+                            <div>
+                                <div className='location'>
+                                    <img alt='' src='/Asset/Icon/location.svg' />
+                                </div>
+                                <div className='mail'>
+                                    <img alt='' src='/Asset/Icon/mail.svg' />
+                                </div>
+                                <div className='mobile'>
+                                    <img alt='' src='/Asset/Icon/phone.svg' />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     {/*
