@@ -9,17 +9,17 @@ export const Contacts = styled.div `
 .contact {
     .side {
         background: gray;
-        width: 30%;
+        width: 25%;
         text-align: center;
         .info {
-            width: 70%;
+            width: 90%;
             display:flex;
             justify-content: space-evenly;
             flex-direction: column;
             .location {
                 display: flex;
                 text-align: left;
-                font-size: 13.5px;
+                font-size: 14.5px;
                 align-items: center;
                 margin-left: 19%;
                 img {
@@ -47,6 +47,16 @@ export const Contacts = styled.div `
                 img {
                     width: 10%;
                 }
+            }
+        }
+        .social {
+            width: 80%;
+            a {
+                text-decoration: none;
+                margin: 8px;
+            }
+            img {
+                width: 6%;
             }
         }
     }

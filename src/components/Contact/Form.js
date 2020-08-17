@@ -32,7 +32,7 @@ class Form extends React.Component {
                                             <span className='line'></span>
                                         </div>
                                     </div>
-                                    <div className='mobile'>
+                                    <div className='name'>
                                         <div className='email'>
                                             <input type='email' />
                                             <span className='text'>Email</span>
@@ -69,8 +69,8 @@ class Form extends React.Component {
                                     <img alt='' src='/Asset/Icon/phone.svg' />
                                     <p>+234-8165-9987-08</p>
                                 </div>
-                            </div><br /><br />
-                            <div>
+                            </div><br /><br /><br/><br /><br />
+                            <div className='social'>
                                 <a href='https://twitter.com/Munachiiso?s=09' target='_blank' rel='noopener noreferrer'> <img src='/Asset/Icon/twitter.svg' alt=''/></a>
                                 <a href='https://linkedin.com/in/munachiso' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/link.svg' alt=''/> </a> 
                                 <a href='https://www.instagram.com/munachiiso/' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/insta.svg' alt=''/></a>
