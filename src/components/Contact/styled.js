@@ -7,6 +7,49 @@ export const Div = styled.div `
 
 export const Contacts = styled.div `
 .contact {
+    .side {
+        background: gray;
+        width: 30%;
+        text-align: center;
+        .info {
+            width: 70%;
+            display:flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            .location {
+                display: flex;
+                text-align: left;
+                font-size: 13.5px;
+                align-items: center;
+                margin-left: 19%;
+                img {
+                    width: 10%;
+                }
+            }
+            .mail {
+                display: flex;
+                width: 50%;
+                text-align: left;
+                font-size: 13.5px;
+                align-items: center;
+                margin-left: 19%;
+                img {
+                    width: 10%;
+                }
+            }
+            .mobile {
+                display: flex;
+                width: 50%;
+                text-align: left;
+                font-size: 13.5px;
+                align-items: center;
+                margin-left: 19%;
+                img {
+                    width: 10%;
+                }
+            }
+        }
+    }
     img{
         width: 2%;
     }

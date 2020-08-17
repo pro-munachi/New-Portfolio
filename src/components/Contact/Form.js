@@ -56,16 +56,26 @@ class Form extends React.Component {
                             <div>
                                 <h2>Contact Info</h2>
                             </div>
-                            <div>
+                            <div className='info'>
                                 <div className='location'>
-                                    <img alt='' src='/Asset/Icon/location.svg' />
+                                    <img alt='' src='/Asset/Icon/location.svg' /><br />
+                                    <p>no 2 Onyeagorom st, Akwakuma, Imo State, Nigeria</p>
                                 </div>
                                 <div className='mail'>
                                     <img alt='' src='/Asset/Icon/mail.svg' />
+                                    <p>Madustanley1@gmail.com</p>
                                 </div>
                                 <div className='mobile'>
                                     <img alt='' src='/Asset/Icon/phone.svg' />
+                                    <p>+234-8165-9987-08</p>
                                 </div>
+                            </div><br /><br />
+                            <div>
+                                <a href='https://twitter.com/Munachiiso?s=09' target='_blank' rel='noopener noreferrer'> <img src='/Asset/Icon/twitter.svg' alt=''/></a>
+                                <a href='https://linkedin.com/in/munachiso' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/link.svg' alt=''/> </a> 
+                                <a href='https://www.instagram.com/munachiiso/' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/insta.svg' alt=''/></a>
+                                <a href='https://m.facebook.com/madu.stanley.71' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/facebook.svg' alt=''/></a>
+                                <a href='https://github.com/pro-munachi' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/git.svg' alt=''/></a>
                             </div>
                         </div>
                     </div>
