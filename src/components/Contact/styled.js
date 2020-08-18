@@ -6,6 +6,7 @@ export const Div = styled.div `
 `
 
 export const Contacts = styled.div `
+box-sizing: border-box;
 .contact {
   display: flex;
   flex-direction: row;
@@ -113,6 +114,16 @@ export const Contacts = styled.div `
                             border-bottom: 2px solid #0f3959;
                             border-radius: 0;
                         }
+                    }
+                }
+                .text {
+                    margin: 20px;
+                    textarea {
+                        width: 80%;
+                        height: 100px;
+                        resize: none;
+                        outline: none;
+                        border: 2px solid #0f3959;
                     }
                 }
             }

@@ -61,7 +61,7 @@ class Form extends React.Component {
                                     <input type='number' placeholder='Phone Number' />
                                </div>
                                <div className='text'>
-                                    <textarea placeholder='Write something to us.....'></textarea>
+                                    <textarea placeholder='Write something to me.....'></textarea>
                                </div>
                                <div className='sub'>
                                     <input type='submit' />
