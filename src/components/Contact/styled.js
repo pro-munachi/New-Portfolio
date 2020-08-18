@@ -11,7 +11,7 @@ export const Contacts = styled.div `
   flex-direction: row;
   padding: 0 39px;
   .container {
-      width: 25%;
+      width: 35%;
       position: relative;
       left: 5%;
       bottom: -5%;
@@ -21,6 +21,9 @@ export const Contacts = styled.div `
           flex-direction: column;
           justify-content: space-evenly;
           background: #0f3959;
+          box-sizing: border-box;
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+          border-radius: 0.5em;
           .con {
               h2 {
                   color: white;
@@ -92,6 +95,27 @@ export const Contacts = styled.div `
             position: relative;
             left: 10%;
             text-align: center;
+            h1 {
+                color: #0f3959;
+            }
+            form {
+                .input {
+                    margin: 20px;
+                    input {
+                        width: 80%;
+                        height: 45px;
+                        border: 2px solid #0f3959;
+                        border-radius: 0.5em;
+                        outline: none;
+                        :focus
+                         {
+                            border: none;
+                            border-bottom: 2px solid #0f3959;
+                            border-radius: 0;
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -49,19 +49,19 @@ class Form extends React.Component {
                             </div> */}
                     <div className='for'>
                        <div className='cont'>
-                           <h2>Contact Me</h2>
+                           <h1>Contact Me</h1>
                            <form>
                                <div className='input'>
                                     <input type='text' placeholder='Full Name' />
                                </div>
                                <div className='input'>
-                                    <input type='text' placeholder='Full Name' />
+                                    <input type='email' placeholder='Email-Address' required/>
                                </div>
                                <div className='input'>
-                                    <input type='text' placeholder='Full Name' />
+                                    <input type='number' placeholder='Phone Number' />
                                </div>
                                <div className='text'>
-                                    <textarea placeholder='Write something to us'></textarea>
+                                    <textarea placeholder='Write something to us.....'></textarea>
                                </div>
                                <div className='sub'>
                                     <input type='submit' />
