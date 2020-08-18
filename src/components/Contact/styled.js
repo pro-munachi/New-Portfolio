@@ -7,61 +7,104 @@ export const Div = styled.div `
 
 export const Contacts = styled.div `
 .contact {
-    .side {
-        background: gray;
-        width: 25%;
-        text-align: center;
-        .info {
-            width: 90%;
-            display:flex;
-            justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+    ::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 50%;
+    }
+    .container {
+        position: relative;
+        min-width: 1100px;
+        min-height: 550px;
+        display: flex;
+        z-index: 1000;
+        .contactinfo {
+            position: absolute;
+            left: 40%;
+            top: 40px;
+            width: 350px;
+            height: calc(100% - 80px);
+            background: #0f3959;
+            z-index: 1;
+            padding: 40px;
+            display: flex;
             flex-direction: column;
-            .location {
-                display: flex;
-                text-align: left;
-                font-size: 14.5px;
-                align-items: center;
-                margin-left: 19%;
-                img {
-                    width: 10%;
+            justify-content: space-between;
+            box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+            h2 {
+                color: #fff;
+                font-size: 25px;
+                font-weight: 500;
+            }
+            .info {
+                position: relative;
+                margin: 20px 0;
+                li {
+                    position: relative;
+                    list-style: none;
+                    display: flex;
+                    margin: 20px 0;
+                    cursor: pointer;
+                    align-items: flex-start;
+                    span:nth-child(1){
+                        width: 30px;
+                        min-width: 30px;
+                    }
+                    span:nth-child(1) img{
+                        max-width: 100%; 
+                        filter: invert(1);
+                        opacity: 0.5;
+                    }
+                    span:nth-child(2){
+                        color: #fff;
+                        margin-left: 10px;
+                        font-weight: 300;
+                        opacity: 0.5;
+                    }
+                    span:nth-child(2) img{
+                        max-width: 100%; 
+                        filter: invert(1);
+                        opacity: 0.5;
+                    }
+                    :hover span:nth-child(1) img,
+                    :hover span:nth-child(2) {
+                        opacity: 1;
+                    }
                 }
             }
-            .mail {
+            .sci {
+                position: relative;
                 display: flex;
-                width: 50%;
-                text-align: left;
-                font-size: 13.5px;
-                align-items: center;
-                margin-left: 19%;
-                img {
-                    width: 10%;
+                li {
+                    list-style: none;
+                    margin-right: 15px;
+                    a {
+                        text-decoration: none;
+                        img {
+                            filter: invert(1);
+                            opacity: 0.5;
+                            :hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
                 }
-            }
-            .mobile {
-                display: flex;
-                width: 50%;
-                text-align: left;
-                font-size: 13.5px;
-                align-items: center;
-                margin-left: 19%;
-                img {
-                    width: 10%;
-                }
-            }
-        }
-        .social {
-            width: 80%;
-            a {
-                text-decoration: none;
-                margin: 8px;
-            }
-            img {
-                width: 6%;
             }
         }
     }
     img{
-        width: 2%;
+        
     }
     .head {
         text-align: center;
