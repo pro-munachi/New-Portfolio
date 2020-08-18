@@ -6,7 +6,6 @@ flex-direction: column;
 justify-content: space-evenly;
 height: 30px;
 width: 30px;
-margin-top: 2em;
 background: transparent;
 border: none;
 cursor: pointer;

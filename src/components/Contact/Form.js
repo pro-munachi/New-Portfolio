@@ -11,7 +11,7 @@ class Form extends React.Component {
                 <div className='contact'>
                     <div className='container'>
                         <div className='contactinfo'>
-                            <div>
+                            <div className='con'>
                                 <h2>Contact Info</h2>
                                 <ul className='info'>
                                     <li>
@@ -27,9 +27,9 @@ class Form extends React.Component {
                                         <span>+234 8165 9987 08</span>
                                     </li>
                                 </ul>
-                                </div>
+                            </div>
                                 <ul className='sci'>
-                                <li><a href='https://m.facebook.com/madu.stanley.71' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/twitter.svg' alt=''/></a></li>
+                                    <li><a href='https://m.facebook.com/madu.stanley.71' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/twitter.svg' alt=''/></a></li>
                                     <li><a href='https://github.com/pro-munachi' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/insta.svg' alt=''/></a> </li>         
                                     <li><a href='https://twitter.com/Munachiiso?s=09' target='_blank' rel='noopener noreferrer'> <img src='/Asset/Icon/twitter.svg' alt=''/></a></li>
                                     <li><a href='https://linkedin.com/in/munachiso' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/link.svg' alt=''/> </a> </li>
@@ -40,63 +40,34 @@ class Form extends React.Component {
 
                     </div>
                     
-                    <div className='social'>
+                   {/* <div className='social'>
                                 <a href='https://twitter.com/Munachiiso?s=09' target='_blank' rel='noopener noreferrer'> <img src='/Asset/Icon/twitter.svg' alt=''/></a>
                                 <a href='https://linkedin.com/in/munachiso' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/link.svg' alt=''/> </a> 
                                 <a href='https://www.instagram.com/munachiiso/' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/insta.svg' alt=''/></a>
                                 <a href='https://m.facebook.com/madu.stanley.71' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/facebook.svg' alt=''/></a>
                                 <a href='https://github.com/pro-munachi' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/git.svg' alt=''/></a>
-                            </div>
+                            </div> */}
                     <div className='for'>
-                        <div className='container'>
-                            <h2>Contact Me</h2>
-                            <div className='row100'>
-                                <div className='col'>
-                                    <div className='inputBox'>
-                                        <input type='text' name='' required='required'/>
-                                        <span className='text'>First Name</span>
-                                        <span className='line'></span>
-                                    </div>
-                                </div>
-                                <div className='col'>
-                                    <div className='inputBox'>
-                                        <input type='text' name='' required='required'/>
-                                        <span className='text'>Last Name</span>
-                                        <span className='line'></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='row100'>
-                                <div className='col'>
-                                    <div className='inputBox'>
-                                        <input type='Email' name='' required='required'/>
-                                        <span className='text'>Email</span>
-                                        <span className='line'></span>
-                                    </div>
-                                </div>
-                                <div className='col'>
-                                    <div className='inputBox'>
-                                        <input type='number' name='' required='required'/>
-                                        <span className='text'>Phone</span>
-                                        <span className='line'></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='row100'>
-                                <div className='col'>
-                                    <div className='inputBox textarea'>
-                                        <textarea required='required'></textarea>
-                                        <span className='text'>Type Your Message Here</span>
-                                        <span className='line'></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='row100'>
-                                <div className='col'>
-                                    <input type='submit' value='send' />
-                                </div>
-                            </div>
-                        </div>
+                       <div className='cont'>
+                           <h2>Contact Me</h2>
+                           <form>
+                               <div className='input'>
+                                    <input type='text' placeholder='Full Name' />
+                               </div>
+                               <div className='input'>
+                                    <input type='text' placeholder='Full Name' />
+                               </div>
+                               <div className='input'>
+                                    <input type='text' placeholder='Full Name' />
+                               </div>
+                               <div className='text'>
+                                    <textarea placeholder='Write something to us'></textarea>
+                               </div>
+                               <div className='sub'>
+                                    <input type='submit' />
+                               </div>
+                           </form>
+                       </div>
                     </div> 
                 </div>
             </Contacts>

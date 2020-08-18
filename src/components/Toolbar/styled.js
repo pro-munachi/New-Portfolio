@@ -15,7 +15,7 @@ header {
     ul {
         font: sans-serif;
         display: flex;
-        margin-top: 4.5%;
+        margin-top: 3.5%;
         .link {
             border-bottom: 3px solid white;
             
@@ -34,7 +34,7 @@ header {
         font-size: 23px;
         color: #aac9ce;
         margin-left: 2em;
-        margin-top: -30px;
+        margin-top: -35px;
         @media (max-width: 766px) {
             margin-top: -30px;
         }
