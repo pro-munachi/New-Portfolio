@@ -12,8 +12,8 @@ function About() {
     return(
         <Div>
             <Navbar 
-            bgcolor={'#aac9ce'}
-            color={'black'}
+            bgcolor={'#0f3959'}
+            color={'white'}
             /><br /><br />
             {/*<Hero 
             image={'https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366__340.jpg'}

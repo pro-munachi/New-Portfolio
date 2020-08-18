@@ -7,16 +7,26 @@ export const Div = styled.div `
 
 export const Contacts = styled.div `
 box-sizing: border-box;
+overflow: hidden;
 .contact {
   display: flex;
   flex-direction: row;
-  padding: 0 39px;
+  @media (max-width: 1000px) {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
   .container {
       width: 35%;
       position: relative;
       left: 5%;
-      bottom: -5%;
+      margin-top: 5%;
       z-index: 1000;
+      @media (max-width: 1000px) {
+        margin-top: 0;
+        left: 0;
+        width: 90%;
+        z-index: -1;
+  }
       .contactinfo {
           display: flex;
           flex-direction: column;
@@ -90,12 +100,22 @@ box-sizing: border-box;
         height: 78vh;
         padding-right: 20px;
         top: 20%;
-        border: 2px solid black;
+        right: 6%;
+        border: 2px solid #0f3959;
+        border-radius: 25px;
         width: 90%;
+        @media (max-width: 1000px) {
+            border: none;
+            width: 100%;
+            right: 0;
+  }
         .cont {
             position: relative;
             left: 10%;
             text-align: center;
+            @media (max-width: 1000px) {
+                left: 0;
+                }
             h1 {
                 color: #0f3959;
             }
@@ -108,11 +128,12 @@ box-sizing: border-box;
                         border: 2px solid #0f3959;
                         border-radius: 0.5em;
                         outline: none;
+                        @media (max-width: 1000px) {
+                            width: 90%;
+                        }
                         :focus
                          {
-                            border: none;
-                            border-bottom: 2px solid #0f3959;
-                            border-radius: 0;
+
                         }
                     }
                 }
@@ -124,6 +145,23 @@ box-sizing: border-box;
                         resize: none;
                         outline: none;
                         border: 2px solid #0f3959;
+                        @media (max-width: 1000px) {
+                            width: 90%;
+                          }
+                    }
+                }
+                .sub {
+                    margin: 20px;
+                    input {
+                        width: 13%;
+                        height: 40px;
+                        background: #0f3959;
+                        color: white;
+                        font-size: 14.5px;
+                        border-radius: 5px;
+                        @media (max-width: 1000px) {
+                            width: 30%;
+                          }
                     }
                 }
             }

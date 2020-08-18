@@ -8,8 +8,8 @@ function Contact() {
     return(
         <Div>
             <Navbar 
-            bgcolor={'#aac9ce'}
-            color={'black'}/><br /><br /><br /><br /><br /><br />
+            bgcolor={'#0f3959'}
+            color={'white'}/><br /><br /><br /><br /><br /><br />
             <Form />
         </Div>
     )

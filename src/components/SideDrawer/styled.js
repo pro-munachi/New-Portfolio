@@ -26,7 +26,8 @@ outline: none;
 export const Nav = styled.div `
 .side-drawer {
 height: 100%;
-background: white;
+background: #0f3959;
+color: white;
 box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
 position: fixed;
 top: 0;
