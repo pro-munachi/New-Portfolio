@@ -13,7 +13,7 @@ function SideDrawer(props) {
         <nav className={drawerClasses}>
             <div className='image'>
                 <img src='/Asset/img/img.jpg' alt=''/>
-            </div> <hr style={{ marginTop: '50px' }} />
+            </div> <hr style={{ marginTop: '150px' }} />
             <div className='ul'>
             <ul>
                 <NavLink to='/'>Home</NavLink>
@@ -22,7 +22,7 @@ function SideDrawer(props) {
                 <NavLink to='/contact'>Contact</NavLink>
                 
             </ul>
-            </div><hr style={{ marginTop: '50px' }} />
+            </div><hr style={{ marginTop: '100px' }} />
                 {/*<div className='social'>
                     <a href='https://twitter.com/Munachiiso?s=09' target='_blank' rel='noopener noreferrer'> <img src='/Asset/Icon/twitter.png' alt=''/></a>
                     <a href='https://linkedin.com/in/munachiso' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/link.png' alt=''/> </a> 

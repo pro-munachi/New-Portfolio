@@ -7,6 +7,7 @@ justify-content: space-evenly;
 height: 30px;
 width: 30px;
 background: transparent;
+margin-top: 80%;
 border: none;
 cursor: pointer;
 padding: 0;
@@ -25,7 +26,7 @@ outline: none;
 
 export const Nav = styled.div `
 .side-drawer {
-height: 100%;
+height: 100vh;
 background: #0f3959;
 color: white;
 box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
@@ -40,7 +41,7 @@ transition: transform 0.3s ease-out;
 .image {
     text-align: center;
     position: relative;
-    top: 4%;
+    top: 14%;
     img {
         width: 40%;
         border-radius: 15em;
@@ -55,7 +56,7 @@ ul {
 }
 .ul {
     position: relative;
-    top: 2%;
+    top: 6%;
     left: 0;
 }
 .social {
@@ -72,18 +73,20 @@ li {
     margin: 0.5rem 0;
 }
 a {
-    color: black;
+    color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
     margin: 10px 0;
     letter-spacing: 5px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
     width: 100%;
+    outline: none;
     :hover {
-        color: orange;
+        opacity: 1;
     }
     :active {
-        color: orange;
+        opacity: 1;
+        outline: none;
     }
 }
 }
