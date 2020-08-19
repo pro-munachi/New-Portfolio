@@ -3,7 +3,6 @@ import {NavLink} from 'react-router-dom'
 
 import Navbar from '../Navbar/Navbar'
 import Slider from './Slider/Slide'
-import Hero from '../Hero/Hero'
 import {Div} from './styled'
 
 

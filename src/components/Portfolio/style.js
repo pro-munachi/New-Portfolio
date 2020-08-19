@@ -49,7 +49,7 @@ export const Cards = styled.div `
                 justify-content: space-around;
                 flex-wrap: wrap;
                 text-align: center;
-                background-image: linear-gradient(rgba(8, 1, 43, 0.63), rgba(8, 1, 43, 0.63)), url(${props => props.imgUrl});
+                background-image:  url(${props => props.imgUrl});
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
@@ -97,7 +97,7 @@ export const Cards = styled.div `
                         font-weight: bold;
                         font-size:15px;
                         color: white;
-                        background: #252079;
+                        background: #0f3959;
                         border: none;
                         border-radius: 2px;
                         cursor: pointer;
@@ -119,7 +119,6 @@ export const FlexStyle = styled.div`
     flex-wrap: wrap;
     margin: 1em auto 6em;
     width: 100%;
-    background: black;
     padding-top: 60px;
 
     @media (min-width: 760px){

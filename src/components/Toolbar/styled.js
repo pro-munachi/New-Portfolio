@@ -4,7 +4,7 @@ export const Wrapper = styled.header `
 background: ${props => props.bgcolor};
 header {
     top: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 10%;
     background: ${props => props.bgcolor};
