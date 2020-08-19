@@ -3,6 +3,7 @@ import {NavLink} from 'react-router-dom'
 
 import Navbar from '../Navbar/Navbar'
 import Slider from './Slider/Slide'
+import Footer from '../Footer/Footer'
 import {Div} from './styled'
 
 
@@ -28,6 +29,7 @@ function About() {
                     <button><NavLink to='contact'>Get In Touch</NavLink></button>
                 </div>
             </div>
+            <Footer />
         </Div>
     )
 }
