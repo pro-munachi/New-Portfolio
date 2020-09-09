@@ -19,6 +19,7 @@ export const Arrow = styled.div`
   top: 0;
   width: 10%;
   font-size: 3em;
+  outline: none;
   cursor: pointer;
   user-select: none;
   ${props => props.right ? css`left: 90%;` : css`left: 0%;`}

@@ -97,7 +97,7 @@ overflow: hidden;
     
     .for {
         position: relative;
-        height: 78vh;
+        height: 520px;
         padding-right: 20px;
         top: 20%;
         right: 6%;

@@ -2,6 +2,15 @@ import styled from 'styled-components'
 
 export const Div = styled.div `
 background: #0f3959;
+.word {
+    color: white;
+    text-align: center;
+    p {
+        padding-bottom: 55px;
+        }
+    }
+}
+.pic {
 .sci {
     display: flex;
     flex-direction: row;
