@@ -15,19 +15,16 @@ background: #0f3959;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    li {
-        list-style: none;
-        margin: 20px;
         a {
             text-decoration: none;
             text-align: center;
+            margin: 20px;
             img {
                 filter: invert(1);
                 opacity: 0.5;
                 :hover {
                     opacity: 1;
                 }
-            }
         }
     }
 }
