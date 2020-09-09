@@ -11,9 +11,6 @@ function Footer() {
                 <a href='https://linkedin.com/in/munachiso' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/link.svg' alt=''/> </a> 
                 <a href='https://www.instagram.com/munachiiso/' target='_blank'  rel='noopener noreferrer'> <img src='/Asset/Icon/insta.svg' alt=''/></a>
             </div>
-            <div className='word'>
-                <p>2020 Munachiso, respective clients and agencies.</p>
-            </div>
         </Div>
     )
 }

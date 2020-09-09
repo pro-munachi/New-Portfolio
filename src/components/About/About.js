@@ -28,7 +28,7 @@ function About() {
                     <h1>Want To Talk To Me About Creating A Website?</h1>
                     <button><NavLink to='contact'>Get In Touch</NavLink></button>
                 </div>
-            </div>
+            </div><br /><br /><br />
             <Footer />
         </Div>
     )
