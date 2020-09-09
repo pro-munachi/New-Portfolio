@@ -2,6 +2,7 @@ import React from 'react'
 
 import Navbar from '../Navbar/Navbar'
 import PortfolioMap from './Portfoliomap'
+import Footer from '../Footer/Footer'
 
 function Portfolio() {
     return(
@@ -14,6 +15,8 @@ function Portfolio() {
                  <h1>View The Works I Have Done Below</h1>
              </div>
             <PortfolioMap />
+            <br /><br /><br />
+            <Footer />
         </div>
     )
 }
