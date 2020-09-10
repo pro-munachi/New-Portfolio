@@ -21,6 +21,9 @@ flex-direction: column;
             text-decoration: none;
             text-align: center;
             margin: 20px;
+            @media (max-width:) {
+                
+            }
             img {
                 filter: invert(1);
                 opacity: 0.5;

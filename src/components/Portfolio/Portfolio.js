@@ -15,7 +15,6 @@ function Portfolio() {
                  <h1>View The Works I Have Done Below</h1>
              </div>
             <PortfolioMap />
-            <br /><br />
             <Footer />
         </div>
     )
