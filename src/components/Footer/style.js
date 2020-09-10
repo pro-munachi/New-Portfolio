@@ -21,8 +21,8 @@ flex-direction: column;
             text-decoration: none;
             text-align: center;
             margin: 20px;
-            @media (max-width:) {
-                
+            @media (max-width: 1000px) {
+                ma
             }
             img {
                 filter: invert(1);
