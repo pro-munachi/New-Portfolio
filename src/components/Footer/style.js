@@ -22,7 +22,7 @@ flex-direction: column;
             text-align: center;
             margin: 20px;
             @media (max-width: 1000px) {
-                ma
+                margin: 15px;
             }
             img {
                 filter: invert(1);
