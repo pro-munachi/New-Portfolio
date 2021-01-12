@@ -46,6 +46,7 @@ function Footer() {
           <img src='/Asset/Icon/insta.svg' alt='' />
         </a>
       </div>
+      <div className='text-center py-3'>copyright &copy; Muna Shop</div>
     </Div>
   )
 }
