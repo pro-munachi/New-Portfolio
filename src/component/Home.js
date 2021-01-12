@@ -57,35 +57,40 @@ const Home = () => {
                 alt='tech bro'
                 className='image'
               />
-              <p>
-                <a
-                  href='https://github.com/pro-munachi'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Github
-                </a>
-              </p>
+              <div className='social-link'>
+                <p>
+                  <i class='fab fa-github'></i>
+                  <a
+                    href='https://github.com/pro-munachi'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Github
+                  </a>
+                </p>
 
-              <p>
-                <a
-                  href='https://www.linkedin.com/in/munachiso'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  LinkedIn
-                </a>
-              </p>
+                <p>
+                  <i class='fab fa-linkedin-in'></i>
+                  <a
+                    href='https://www.linkedin.com/in/munachiso'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    LinkedIn
+                  </a>
+                </p>
 
-              <p>
-                <a
-                  href='https://twitter.com/Munachiiso'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Twitter
-                </a>
-              </p>
+                <p>
+                  <i class='fab fa-twitter'></i>
+                  <a
+                    href='https://twitter.com/Munachiiso'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Twitter
+                  </a>
+                </p>
+              </div>
             </div>
             <div className='inspire'>
               inspired by

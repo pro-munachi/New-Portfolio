@@ -14,6 +14,9 @@ export const Container = styled.div`
       flex-direction: column;
       justify-content: space-between;
       height: 100vh;
+      @media (max-width: 1250px) {
+        width: 80%;
+      }
     }
     .intro {
       h1 {
@@ -62,11 +65,37 @@ export const Container = styled.div`
       .social {
         display: flex;
       }
+      .social-link {
+        margin: 0 4px;
+        display: flex;
+        justify-content: space-between;
+        p {
+          margin: 9% 0 0 15px;
+          a {
+            margin: 5px;
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
       .image {
         width: 15%;
         border-radius: 15em;
         margin-right: 25px;
       }
+      .inspire {
+        margin: auto;
+        margin-top: 5px;
+        a {
+          color: white;
+          margin-left: 5px;
+          text-decoration: none;
+        }
+      }
+    }
+    .copy {
+      text-align: center;
+      margin-bottom: 3px;
     }
   }
 `

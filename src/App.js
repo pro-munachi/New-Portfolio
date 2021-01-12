@@ -10,9 +10,11 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path='/' component={HomeScreen} exact />
-        <Route path='/portfolio' component={PortfolioScreen} />
-        <Route component={Error} />
+        <div style={{ background: 'black' }}>
+          <Route path='/' component={HomeScreen} exact />
+          <Route path='/portfolio' component={PortfolioScreen} />
+          <Route component={Error} />
+        </div>
       </Switch>
     </BrowserRouter>
   )

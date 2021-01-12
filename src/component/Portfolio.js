@@ -1,10 +1,15 @@
 import React from 'react'
+
 import { Container } from '../Styles/PortfolioStyle'
+import PortfolioFile from './PortfolioFile'
+import Datum from './PortfolioData'
 
 const Portfolio = () => {
   return (
     <Container>
-      <h1>ggghh</h1>
+      {Datum.map(data => (
+        <PortfolioFile key={data.id} data={data} />
+      ))}
     </Container>
   )
 }
