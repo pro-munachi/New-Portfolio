@@ -78,11 +78,14 @@ export const Container = styled.div`
         display: flex;
         justify-content: space-between;
         p {
-          margin: 9% 0 0 15px;
+          margin: 9% 0 0 3px;
           a {
             margin: 5px;
             text-decoration: none;
-            color: white;
+            color: #777778;
+            :hover {
+              color: white;
+            }
           }
         }
       }

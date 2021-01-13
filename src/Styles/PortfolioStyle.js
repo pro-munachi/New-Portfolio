@@ -7,7 +7,6 @@ export const Container = styled.div`
   color: #777778;
   height: 100vh;
   overflow: auto;
-  overflow-y: scoll;
   display: flex;
   flex-wrap: wrap;
 `
@@ -50,16 +49,22 @@ export const Containers = styled.div`
         margin: 20px;
         a {
           text-decoration: none;
-          color: white;
+          color: #777778;
           font-size: 16px;
+          :hover {
+            color: white;
+          }
         }
       }
       p {
         margin: 20px 0;
         a {
           text-decoration: none;
-          color: white;
+          color: #777778;
           font-size: 16px;
+          :hover {
+            color: white;
+          }
         }
       }
     }

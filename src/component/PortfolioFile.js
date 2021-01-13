@@ -12,14 +12,16 @@ const PortfolioFile = props => {
         </div>
         <div className='host'>
           <p>
-            <i class='fas fa-eye'></i>{' '}
+            {' '}
             <a href={props.data.site} target='_blank' rel='noopener noreferrer'>
+              <i class='fas fa-eye' style={{ margin: '0 6px' }}></i>
               site
             </a>
           </p>
           <p className='p'>
-            <i class='fas fa-code-branch'></i>{' '}
+            {' '}
             <a href={props.data.code} target='_blank' rel='noopener noreferrer'>
+              <i class='fas fa-code-branch' style={{ margin: '0 6px' }}></i>
               repo
             </a>
           </p>

@@ -67,34 +67,37 @@ const Home = () => {
               />
               <div className='social-link'>
                 <p>
-                  <i class='fab fa-github'></i>
                   <a
                     href='https://github.com/pro-munachi'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
+                    <i class='fab fa-github' style={{ margin: '0 5px' }}></i>
                     Github
                   </a>
                 </p>
 
                 <p>
-                  <i class='fab fa-linkedin-in'></i>
                   <a
                     href='https://www.linkedin.com/in/munachiso'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
+                    <i
+                      class='fab fa-linkedin-in'
+                      style={{ margin: '0 5px' }}
+                    ></i>
                     LinkedIn
                   </a>
                 </p>
 
                 <p>
-                  <i class='fab fa-twitter'></i>
                   <a
                     href='https://twitter.com/Munachiiso'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
+                    <i class='fab fa-twitter' style={{ margin: '0 5px' }}></i>
                     Twitter
                   </a>
                 </p>
