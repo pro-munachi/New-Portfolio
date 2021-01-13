@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 50%;
-  border: 1px solid white;
   color: #777778;
   overflow: auto;
   height: 100vh;
@@ -22,9 +21,11 @@ export const Container = styled.div`
     .info {
       width: 88%;
       margin: auto;
+
       .header {
         border-bottom: 1px solid white;
         text-align: center;
+        padding-top: 15px;
         h1 {
           font-style: italic;
           color: white;
@@ -44,6 +45,12 @@ export const Container = styled.div`
         .map {
           border-bottom: 1px solid white;
           padding-bottom: 25px;
+        }
+      }
+      .education {
+        padding-bottom: 45px;
+        a {
+          color: white;
         }
       }
     }

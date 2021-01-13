@@ -52,7 +52,7 @@ const Home = () => {
               {' '}
               3.0
               <div className='line'>
-                <NavLink to='/' className='like'>
+                <NavLink to='/contact' className='like'>
                   <p className='link-name'>Contact</p>
                 </NavLink>
               </div>

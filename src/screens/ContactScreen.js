@@ -1,11 +1,13 @@
 import React from 'react'
-import { Container } from '../Styles/Portfolio'
+import Home from '../component/Home'
+import Contact from '../component/Contact'
 
 const ContactScreen = () => {
   return (
-    <Container>
-      <h1>muna</h1>
-    </Container>
+    <div style={{ display: 'flex' }}>
+      <Home />
+      <Contact />
+    </div>
   )
 }
 

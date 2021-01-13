@@ -5,7 +5,7 @@ import Error from './components/Error/Error'
 import HomeScreen from './screens/HomeScreen'
 import PortfolioScreen from './screens/PortfolioScreen'
 import ResumeScreen from './screens/ResumeScreen'
-//import ContactScreen from './screens/ContactScreen'
+import ContactScreen from './screens/ContactScreen'
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
           <Route path='/' component={HomeScreen} exact />
           <Route path='/portfolio' component={PortfolioScreen} />
           <Route path='/resume' component={ResumeScreen} />
+          <Route path='/contact' component={ContactScreen} />
           <Route component={Error} />
         </div>
       </Switch>

@@ -34,7 +34,17 @@ const Resume = () => {
           </div>
           <div className='education'>
             <h2>Certification</h2>
-            <p>freecodecamp</p>
+            <li>
+              I completed the Responsive Web Design Classes from freecodecamp.
+              You can view the certificate here{' '}
+              <a
+                href='https://freecodecamp.org/certification/munachiso/responsive-web-design'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                freecodecamp
+              </a>
+            </li>
           </div>
         </div>
       </div>
