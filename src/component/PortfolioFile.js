@@ -20,7 +20,7 @@ const PortfolioFile = props => {
           <p className='p'>
             <i class='fas fa-code-branch'></i>{' '}
             <a href={props.data.code} target='_blank' rel='noopener noreferrer'>
-              code
+              repo
             </a>
           </p>
         </div>

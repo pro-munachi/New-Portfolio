@@ -22,6 +22,11 @@ export const Container = styled.div`
       h1 {
         font-size: 48px;
       }
+      .m,
+      .h {
+        border-left: 5px solid #777778;
+        border-top: 5px solid #777778;
+      }
       p {
         font-size: 19px;
       }
@@ -34,6 +39,10 @@ export const Container = styled.div`
         width: auto;
         :hover {
           color: white;
+          transition: 0.5s ease-in-out;
+        }
+        .like {
+          text-decoration: none;
         }
         .line {
           width: 50px;
@@ -44,8 +53,7 @@ export const Container = styled.div`
           text-decoration: none;
           :hover {
             width: 70px;
-            transition-duration: 3s;
-            transition: ease-in-out;
+            transition: 0.5s ease-in-out;
             background: white;
           }
           .link-name {

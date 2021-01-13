@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Error from './components/Error/Error'
 import HomeScreen from './screens/HomeScreen'
 import PortfolioScreen from './screens/PortfolioScreen'
+import ResumeScreen from './screens/ResumeScreen'
 //import ContactScreen from './screens/ContactScreen'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <div style={{ background: 'black' }}>
           <Route path='/' component={HomeScreen} exact />
           <Route path='/portfolio' component={PortfolioScreen} />
+          <Route path='/resume' component={ResumeScreen} />
           <Route component={Error} />
         </div>
       </Switch>

@@ -10,11 +10,11 @@ const Home = () => {
           <div className='intro'>
             <h1>
               <h1 style={{ color: 'white', margin: '0', padding: '0' }}>
-                HELLO,
+                <span className='h'>H</span>ELLO,
               </h1>
               I AM{' '}
               <span style={{ color: 'white', margin: '0', padding: '0' }}>
-                Munachi
+                <span className='m'>M</span>unachi
               </span>
             </h1>
             <p className='text'>
@@ -31,23 +31,31 @@ const Home = () => {
             <p className='link'>
               {' '}
               1.0
-              <NavLink activeClassName='line' to='/' exact>
-                <p className='link-name'>Portfolio</p>
-              </NavLink>
+              <div className='line'>
+                <NavLink to='/' className='like'>
+                  <p className='link-name'>Portfolio</p>
+                </NavLink>
+              </div>
             </p>
+
             <p className='link'>
               {' '}
               2.0
-              <NavLink activeClassName='line' to='/' exact>
-                <p className='link-name'>Resume</p>
-              </NavLink>
+              <div className='line'>
+                <NavLink to='/resume' className='like'>
+                  <p className='link-name'>Resume</p>
+                </NavLink>
+              </div>
             </p>
+
             <p className='link'>
               {' '}
               3.0
-              <NavLink activeClassName='line' to='/' exact>
-                <p className='link-name'>Contact</p>
-              </NavLink>
+              <div className='line'>
+                <NavLink to='/' className='like'>
+                  <p className='link-name'>Contact</p>
+                </NavLink>
+              </div>
             </p>
           </div>
           <div className='footer'>

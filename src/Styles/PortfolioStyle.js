@@ -5,9 +5,9 @@ export const Container = styled.div`
   background: black;
   position: relative;
   color: #777778;
-  height: auto;
+  height: 100vh;
   overflow: auto;
-  overscroll-behavior-y: contain;
+  overflow-y: scoll;
   display: flex;
   flex-wrap: wrap;
 `
@@ -16,11 +16,17 @@ export const Containers = styled.div`
   width: 300px;
   height: 250px;
   background: #101011;
-  margin: auto;
+  margin-top: 5%;
+  margin-right: 2%;
+  @media (max-width: 1251px) {
+    margin: auto;
+    margin-top: 8%;
+  }
 
   :hover {
-    width: 305px;
-    height: 255px;
+    width: 307px;
+    height: 257px;
+    transition: 0.5s ease-in-out;
   }
 
   .card {
