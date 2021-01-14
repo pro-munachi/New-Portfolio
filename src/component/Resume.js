@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from '../Styles/ResumeStyle'
 import Data from './ResumeData'
+import {Roll} from 'react-reveal'
 
 const Resume = () => {
   return (
@@ -8,10 +9,14 @@ const Resume = () => {
       <div className='resume'>
         <div className='info'>
           <div className='header'>
-            <h1>My Resume</h1>
+            <Roll>
+              <h1>My Resume</h1>
+            </Roll>
           </div>
           <div className='tech'>
-            <h2>Technologies</h2>
+            <Roll>
+              <h2>Technologies</h2>
+            </Roll>
             <p>
               I am conversant with the following technologies: Html, Css,
               Javascript, React, Redux, Bootstrap, Styled-Components, Github,
@@ -19,7 +24,9 @@ const Resume = () => {
             </p>
           </div>
           <div className='experience'>
-            <h2>Experiences</h2>
+            <Roll>
+              <h2>Experiences</h2>
+            </Roll>
             <div className='shop'>
               {Data.map(exp => (
                 <div className='map' key={exp.id}>
@@ -33,7 +40,9 @@ const Resume = () => {
             </div>
           </div>
           <div className='education'>
-            <h2>Certification</h2>
+            <Roll>
+              <h2>Certification</h2>
+            </Roll>
             <li>
               I completed the Responsive Web Design Classes from freecodecamp.
               You can view the certificate here{' '}

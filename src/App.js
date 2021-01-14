@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import Error from './components/Error/Error'
+import Error from './component/Error'
 import HomeScreen from './screens/HomeScreen'
 import PortfolioScreen from './screens/PortfolioScreen'
 import ResumeScreen from './screens/ResumeScreen'

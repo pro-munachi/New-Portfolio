@@ -1,26 +1,32 @@
 import React from 'react'
 import { Container } from '../Styles/MobileHomeStyle'
+import { Bounce, Roll } from 'react-reveal'
 
 const MobileHome = () => {
   return (
     <Container>
       <div className='home'>
+        <Bounce>
         <div className='image'>
           <img
             src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMy7wxbiv-US5hUiRSQCwUNh4gtn4SjCppbQ&usqp=CAU'
             alt='tech bro'
           />
         </div>
+        </Bounce>
         <div className='intro'>
-          <h1>
-            <span style={{ color: 'white', margin: '0', padding: '0' }}>
-              <span className='h'>H</span>ELLO,
-            </span>
-            I AM{' '}
-            <span style={{ color: 'white', margin: '0', padding: '0' }}>
-              <span className='m'>M</span>unachi
-            </span>
-          </h1>
+          <Roll>
+            <h1>
+              <span style={{ color: 'white', margin: '0', padding: '0' }}>
+                <span className='h'>H</span>ELLO,
+              </span>
+              I AM{' '}
+              <span style={{ color: 'white', margin: '0', padding: '0' }}>
+                <span className='m'>M</span>unachi
+              </span>
+            </h1>
+          </Roll>
+          <Bounce>
           <p className='text'>
             I am a <span style={{ color: 'white' }}>frontend</span> web
             developer who enjoys coding and is open for new{' '}
@@ -30,7 +36,9 @@ const MobileHome = () => {
             Bootstrap, Javascript, <span style={{ color: 'white' }}>React</span>
             , Redux e.t.c
           </p>
+          </Bounce>
         </div>
+        <Bounce>
         <div className='footer'>
           <div className='social'>
             <div className='social-link'>
@@ -80,6 +88,7 @@ const MobileHome = () => {
           </div>
           <div className='copy'>Copyright &copy; Munachi</div>
         </div>
+        </Bounce>
       </div>
     </Container>
   )

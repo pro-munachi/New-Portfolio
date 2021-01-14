@@ -14,14 +14,16 @@ const Data = [
     label: 'Immaculate Eye Clinic | Front-End[Contract]',
     desc: 'I worked with other web engineer to create this project',
     p1: 'I and interacted with RESTFUL API during the project',
-    p2: 'I developed this using React and Styled Components'
+    p2: 'I developed this using React and Styled Components',
+    p3: 'I worked with a senior Engineer who guided me'
   },
   {
     id: 3,
-    label: 'Immaculate Eye Clinic | Front-End[Contract]',
-    desc: 'I worked with other web engineer to create this project',
-    p1: 'I and interacted with RESTFUL API during the project',
-    p2: 'I developed this using React and Styled Components'
+    label: 'ChidiTech | Internship',
+    desc: 'I interned at ChidiTech for a period of 6 months',
+    p1: 'I learnt to use technologies like Redux, Bootstrap and Github',
+    p2: 'I learnt a lot from other developers there',
+    p3: 'I helped in building websites during my stay there'
   }
 ]
 

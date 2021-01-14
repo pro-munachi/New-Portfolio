@@ -1,12 +1,15 @@
 import React from 'react'
 import { Container } from '../Styles/ContactStyle'
+import Zoom from 'react-reveal/Zoom'
 
 const Contact = () => {
   return (
     <Container>
       <div className='contact'>
         <div>
-          <h1>Contact Me</h1>
+          <Zoom>
+            <h1>Contact Me</h1>
+          </Zoom>
         </div>
         <form>
           <label>
