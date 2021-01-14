@@ -5,6 +5,14 @@ export const Container = styled.div`
   color: #777778;
   overflow: auto;
   height: 100vh;
+  @media (max-width: 1000px) {
+    width: 90%;
+    margin: auto;
+  }
+  .space {
+    height: 250px;
+    color: black;
+  }
   h2 {
     font-size: 27px;
     color: white;

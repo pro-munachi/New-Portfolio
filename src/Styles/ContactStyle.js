@@ -2,11 +2,17 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   color: #777778;
-  height: 100vh;
+  height: auto;
   margin: auto;
   text-align: center;
   .contact {
-    margin-top: 5%;
+    margin-top: 10%;
+    @media (max-width: 1000px) {
+      margin-top: 2%;
+    }
+    h1 {
+      font-size: 40px;
+    }
     form {
       display: flex;
       flex-direction: column;
@@ -18,6 +24,11 @@ export const Container = styled.div`
           border: 2px solid #777778;
           border-radius: 0.5em;
           outline: none;
+          padding-left: 7px;
+          ::placeholder {
+            font-size: 15px;
+            font-style: italic;
+          }
         }
         textarea {
           width: 450px;
@@ -25,6 +36,11 @@ export const Container = styled.div`
           resize: none;
           outline: none;
           border: 2px solid #777778;
+          padding-left: 7px;
+          ::placeholder {
+            font-size: 15px;
+            font-style: italic;
+          }
         }
         .sub {
           width: 120px;

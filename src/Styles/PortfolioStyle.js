@@ -9,6 +9,15 @@ export const Container = styled.div`
   overflow: auto;
   display: flex;
   flex-wrap: wrap;
+  .space {
+    height: 250px;
+    color: black;
+    width: 100%;
+  }
+  @media (max-width: 1000px) {
+    width: 90%;
+    margin: auto;
+  }
 `
 
 export const Containers = styled.div`

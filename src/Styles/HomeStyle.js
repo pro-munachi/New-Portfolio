@@ -106,7 +106,23 @@ export const Container = styled.div`
     }
     .copy {
       text-align: center;
-      margin-bottom: 3px;
+      margin-bottom: 30px;
+    }
+  }
+`
+
+export const Contain = styled.div`
+  .desktop {
+    display: flex;
+    @media (max-width: 1000px) {
+      display: none;
+    }
+  }
+  .mobile {
+    display: none;
+    background: black;
+    @media (max-width: 1000px) {
+      display: block;
     }
   }
 `

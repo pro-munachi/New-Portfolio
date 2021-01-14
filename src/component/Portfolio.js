@@ -10,6 +10,9 @@ const Portfolio = () => {
       {Datum.map(data => (
         <PortfolioFile key={data.id} data={data} />
       ))}
+      <div className='space'>
+        <p>Munachi</p>
+      </div>
     </Container>
   )
 }
