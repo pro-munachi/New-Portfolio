@@ -37,31 +37,31 @@ const Home = () => {
               <p className='link'>
                 {' '}
                 1.0
-                <div className='line'>
+                <span className='line'>
                   <NavLink to='/' className='like'>
-                    <p className='link-name'>Portfolio</p>
+                    <li className='link-name'>Portfolio</li>
                   </NavLink>
-                </div>
+                </span>
               </p>
 
               <p className='link'>
                 {' '}
                 2.0
-                <div className='line'>
+                <span className='line'>
                   <NavLink to='/resume' className='like'>
-                    <p className='link-name'>Resume</p>
+                    <li className='link-name'>Resume</li>
                   </NavLink>
-                </div>
+                </span>
               </p>
 
               <p className='link'>
                 {' '}
                 3.0
-                <div className='line'>
+                <span className='line'>
                   <NavLink to='/contact' className='like'>
-                    <p className='link-name'>Contact</p>
+                    <li className='link-name'>Contact</li>
                   </NavLink>
-                </div>
+                </span>
               </p>
             </div>
           </Bounce>
@@ -80,7 +80,10 @@ const Home = () => {
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      <i class='fab fa-github' style={{ margin: '0 5px' }}></i>
+                      <i
+                        className='fab fa-github'
+                        style={{ margin: '0 5px' }}
+                      ></i>
                       Github
                     </a>
                   </p>
@@ -92,7 +95,7 @@ const Home = () => {
                       rel='noopener noreferrer'
                     >
                       <i
-                        class='fab fa-linkedin-in'
+                        className='fab fa-linkedin-in'
                         style={{ margin: '0 5px' }}
                       ></i>
                       LinkedIn
@@ -105,7 +108,10 @@ const Home = () => {
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      <i class='fab fa-twitter' style={{ margin: '0 5px' }}></i>
+                      <i
+                        className='fab fa-twitter'
+                        style={{ margin: '0 5px' }}
+                      ></i>
                       Twitter
                     </a>
                   </p>

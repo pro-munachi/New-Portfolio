@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from '../Styles/ResumeStyle'
 import Data from './ResumeData'
-import {Roll} from 'react-reveal'
+import { Roll, Bounce, Zoom } from 'react-reveal'
 
 const Resume = () => {
   return (
@@ -14,46 +14,52 @@ const Resume = () => {
             </Roll>
           </div>
           <div className='tech'>
-            <Roll>
+            <Zoom>
               <h2>Technologies</h2>
-            </Roll>
-            <p>
-              I am conversant with the following technologies: Html, Css,
-              Javascript, React, Redux, Bootstrap, Styled-Components, Github,
-              Git, Nodejs, Express, MongoDb, Postman, Heroku.
-            </p>
+            </Zoom>
+            <Bounce>
+              <p>
+                I am conversant with the following technologies: Html, Css,
+                Javascript, React, Redux, Bootstrap, Styled-Components, Github,
+                Git, Nodejs, Express, MongoDb, Postman, Heroku.
+              </p>
+            </Bounce>
           </div>
           <div className='experience'>
-            <Roll>
+            <Zoom>
               <h2>Experiences</h2>
-            </Roll>
+            </Zoom>
             <div className='shop'>
               {Data.map(exp => (
-                <div className='map' key={exp.id}>
-                  <h3>{exp.label}</h3>
-                  <li>{exp.desc}</li>
-                  <li>{exp.p1}</li>
-                  <li>{exp.p2}</li>
-                  <li>{exp.p3}</li>
-                </div>
+                <Bounce key={exp.id}>
+                  <div className='map'>
+                    <h3>{exp.label}</h3>
+                    <li>{exp.desc}</li>
+                    <li>{exp.p1}</li>
+                    <li>{exp.p2}</li>
+                    <li>{exp.p3}</li>
+                  </div>
+                </Bounce>
               ))}
             </div>
           </div>
           <div className='education'>
-            <Roll>
+            <Zoom>
               <h2>Certification</h2>
-            </Roll>
-            <li>
-              I completed the Responsive Web Design Classes from freecodecamp.
-              You can view the certificate here{' '}
-              <a
-                href='https://freecodecamp.org/certification/munachiso/responsive-web-design'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                freecodecamp
-              </a>
-            </li>
+            </Zoom>
+            <Bounce>
+              <li>
+                I completed the Responsive Web Design Classes from freecodecamp.
+                You can view the certificate here{' '}
+                <a
+                  href='https://freecodecamp.org/certification/munachiso/responsive-web-design'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  freecodecamp
+                </a>
+              </li>
+            </Bounce>
           </div>
         </div>
       </div>

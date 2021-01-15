@@ -20,7 +20,7 @@ const PortfolioFile = props => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <i class='fas fa-eye' style={{ margin: '0 6px' }}></i>
+                <i className='fas fa-eye' style={{ margin: '0 6px' }}></i>
                 site
               </a>
             </p>
@@ -31,7 +31,10 @@ const PortfolioFile = props => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <i class='fas fa-code-branch' style={{ margin: '0 6px' }}></i>
+                <i
+                  className='fas fa-code-branch'
+                  style={{ margin: '0 6px' }}
+                ></i>
                 repo
               </a>
             </p>

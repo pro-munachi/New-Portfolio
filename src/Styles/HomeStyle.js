@@ -60,6 +60,7 @@ export const Container = styled.div`
             margin-left: 130%;
             margin-top: -14px;
             color: #777778;
+            list-style: none;
             :hover {
               color: white;
             }

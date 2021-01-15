@@ -24,7 +24,7 @@ const Datum = [
     code: '/'
   },
   {
-    id: 1,
+    id: 4,
     name: 'Muna Shop',
     tech: 'React, Bootstrap, Redux, Express, MongoDb, Postman',
     about: 'An E-Commerce Website',
@@ -32,7 +32,7 @@ const Datum = [
     code: '/'
   },
   {
-    id: 1,
+    id: 5,
     name: 'Meme Generator',
     tech: 'React & Css',
     about: 'A meme Generator',
@@ -40,7 +40,7 @@ const Datum = [
     code: '/'
   },
   {
-    id: 1,
+    id: 6,
     name: 'Muna Store',
     tech: 'React, Redux & Styled-Component',
     about: 'An online store',
