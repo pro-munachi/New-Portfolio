@@ -2,7 +2,7 @@ const Datum = [
   {
     id: 1,
     name: 'Muna',
-    tech: 'React, Bootstrap & Styled-Component',
+    tech: 'React & Styled-Component',
     about: 'My portfolio website',
     site: '/',
     code: '/'
@@ -12,16 +12,16 @@ const Datum = [
     name: 'Immaculate',
     tech: 'React & Styled-Component',
     about: 'A hospital website',
-    site: '/',
-    code: '/'
+    site: 'https://pedantic-easley-e837e3.netlify.app/',
+    code: 'https://github.com/Immaculate-Eye-Clinic/Imaculate-front-end'
   },
   {
     id: 3,
     name: 'Github',
     tech: 'Html & Css',
     about: 'Recreation of Github repositories',
-    site: '/',
-    code: '/'
+    site: 'https://epic-jones-15604d.netlify.app/',
+    code: 'https://github.com/pro-munachi/Git-hub'
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const Datum = [
     name: 'Meme Generator',
     tech: 'React & Css',
     about: 'A meme Generator',
-    site: '/',
+    site: 'https://silly-roentgen-2e4648.netlify.app/',
     code: '/'
   },
   {
