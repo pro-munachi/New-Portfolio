@@ -16,9 +16,9 @@ function App() {
           <Route path='/portfolio' component={PortfolioScreen} />
           <Route path='/resume' component={ResumeScreen} />
           <Route path='/contact' component={ContactScreen} />
-          <Route component={Error} />
         </div>
       </Switch>
+      <Route component={Error} />
     </BrowserRouter>
   )
 }

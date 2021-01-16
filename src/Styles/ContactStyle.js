@@ -5,6 +5,7 @@ export const Container = styled.div`
   height: auto;
   margin: auto;
   text-align: center;
+  overflow: hidden;
   .contact {
     margin-top: 10%;
     @media (max-width: 1000px) {

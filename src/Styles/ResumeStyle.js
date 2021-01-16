@@ -6,7 +6,7 @@ export const Container = styled.div`
   overflow: auto;
   height: 100vh;
   @media (max-width: 1000px) {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   .space {
