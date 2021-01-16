@@ -4,12 +4,21 @@ export const Container = styled.div`
   color: #777778;
   height: auto;
   margin: auto;
+  width: 50%;
+  height: 100vh;
   text-align: center;
-  overflow: hidden;
+  overflow: auto;
+  padding-bottom: 65px;
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin: auto;
+  }
   .contact {
     margin-top: 10%;
+    width: 85%;
     @media (max-width: 1000px) {
       margin-top: 2%;
+      margin: auto;
     }
     h1 {
       font-size: 40px;
@@ -20,7 +29,7 @@ export const Container = styled.div`
       label {
         margin: 20px;
         input {
-          width: 450px;
+          width: 100%;
           height: 45px;
           border: 2px solid #777778;
           border-radius: 0.5em;
@@ -32,7 +41,7 @@ export const Container = styled.div`
           }
         }
         textarea {
-          width: 450px;
+          width: 100%;
           height: 100px;
           resize: none;
           outline: none;
