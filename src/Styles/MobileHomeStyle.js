@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Container = styled.div`
   color: #777778;
   height: 100vh;
-  overflow: auto;
   .home {
     width: 90%;
     margin: auto;
@@ -24,10 +23,10 @@ export const Container = styled.div`
     .intro {
       margin: 10px 0;
       h1 {
-        font-size: 36px;
+        font-size: 34px;
       }
       p {
-        font-size: 19px;
+        font-size: 17px;
       }
     }
     .footer {
@@ -50,7 +49,7 @@ export const Container = styled.div`
       }
       .inspire {
         margin: 18px 0;
-        font-size: 19px;
+        font-size: 18px;
         color: #777778;
         a {
           color: white;
@@ -60,7 +59,6 @@ export const Container = styled.div`
       .copy {
         color: white;
         margin-top: 8px;
-        font-size: 19px;
       }
     }
   }
