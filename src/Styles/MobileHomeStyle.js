@@ -23,7 +23,7 @@ export const Container = styled.div`
     .intro {
       margin: 10px 0;
       h1 {
-        font-size: 34px;
+        font-size: 31px;
       }
       p {
         font-size: 17px;
