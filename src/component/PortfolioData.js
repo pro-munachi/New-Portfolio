@@ -29,7 +29,7 @@ const Datum = [
     tech: 'React, Bootstrap, Redux, Express, MongoDb, Postman',
     about: 'An E-Commerce Website',
     site: '/',
-    code: '/'
+    code: 'https://github.com/pro-munachi/E-commerce'
   },
   {
     id: 5,
@@ -41,11 +41,11 @@ const Datum = [
   },
   {
     id: 6,
-    name: 'Muna Store',
+    name: 'Coupon Site',
     tech: 'React, Redux & Styled-Component',
     about: 'An online store',
-    site: '/',
-    code: '/'
+    site: 'https://sleepy-newton-34eeab.netlify.app/',
+    code: 'https://github.com/pro-munachi/Redux'
   }
 ]
 
