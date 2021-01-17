@@ -4,6 +4,7 @@ export const Container = styled.div`
   color: #777778;
   height: auto;
   padding-bottom: 14%;
+  height: 100vh;
   .home {
     width: 90%;
     margin: auto;
