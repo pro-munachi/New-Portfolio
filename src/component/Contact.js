@@ -11,7 +11,7 @@ const Contact = () => {
             <h1>Contact Me</h1>
           </Zoom>
         </div>
-        <form>
+        <form name='contact' method='POST' data-netlify='true'>
           <label>
             <input type='text' placeholder='Full Name' />
           </label>

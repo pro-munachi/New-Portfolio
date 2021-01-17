@@ -17,6 +17,9 @@ export const Container = styled.nav`
     margin: auto;
     padding: 13px 0;
     overflow: hidden;
+    @media (max-width: 700px) {
+      font-size: 12px;
+    }
     .link {
       margin-top: auto;
       margin-bottom: auto;
@@ -25,6 +28,9 @@ export const Container = styled.nav`
         text-decoration: none;
         font-size: 30px;
         color: white;
+        @media (max-width: 700px) {
+          font-size: 23px;
+        }
       }
     }
     .burgermenu {

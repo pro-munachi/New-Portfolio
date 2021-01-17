@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import Error from './component/Error'
 import HomeScreen from './screens/HomeScreen'
 import PortfolioScreen from './screens/PortfolioScreen'
 import ResumeScreen from './screens/ResumeScreen'
@@ -18,7 +17,6 @@ function App() {
           <Route path='/contact' component={ContactScreen} />
         </div>
       </Switch>
-      <Route component={Error} />
     </BrowserRouter>
   )
 }

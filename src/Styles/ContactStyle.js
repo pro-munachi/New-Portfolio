@@ -22,6 +22,9 @@ export const Container = styled.div`
     }
     h1 {
       font-size: 40px;
+      @media (max-width: 700px) {
+        font-size: 30px;
+      }
     }
     form {
       display: flex;
@@ -38,6 +41,12 @@ export const Container = styled.div`
           ::placeholder {
             font-size: 15px;
             font-style: italic;
+            @media (max-width: 700px) {
+              font-size: 12px;
+            }
+          }
+          @media (max-width: 700px) {
+            height: 30px;
           }
         }
         textarea {
@@ -50,6 +59,12 @@ export const Container = styled.div`
           ::placeholder {
             font-size: 15px;
             font-style: italic;
+            @media (max-width: 700px) {
+              font-size: 12px;
+            }
+          }
+          @media (max-width: 700px) {
+            height: 70px;
           }
         }
         .sub {

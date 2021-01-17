@@ -16,14 +16,20 @@ export const Container = styled.div`
   h2 {
     font-size: 27px;
     color: white;
+    @media (max-width: 1000px) {
+      font-size: 24px;
+    }
   }
   li {
     font-size: 18px;
     font-style: italic;
+    @media (max-width: 1000px) {
+      font-size: 15px;
+    }
   }
   .resume {
     background: #101011;
-    width: 80%;
+    width: 85%;
     margin: auto;
     margin-top: 5%;
     .info {
@@ -47,6 +53,9 @@ export const Container = styled.div`
         }
         p {
           font-style: italic;
+          @media (max-width: 1000px) {
+            font-size: 15px;
+          }
         }
       }
       .experience {

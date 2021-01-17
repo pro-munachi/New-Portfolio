@@ -3,9 +3,11 @@ import styled from 'styled-components'
 export const Container = styled.div`
   color: #777778;
   height: auto;
+  padding-bottom: 14%;
   .home {
-    width: 80%;
+    width: 90%;
     margin: auto;
+    margin-top: 5%;
     padding-top: 10%;
     padding-bottom: 12%;
     text-align: center;
@@ -18,10 +20,10 @@ export const Container = styled.div`
     }
     .intro {
       h1 {
-        font-size: 39px;
+        font-size: 34px;
       }
       p {
-        font-size: 20px;
+        font-size: 17px;
       }
     }
     .social {
@@ -48,6 +50,7 @@ export const Container = styled.div`
     }
     .copy {
       color: white;
+      margin-top: 8px;
     }
   }
 `

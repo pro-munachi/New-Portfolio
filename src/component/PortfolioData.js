@@ -4,8 +4,8 @@ const Datum = [
     name: 'Muna',
     tech: 'React & Styled-Component',
     about: 'My portfolio website',
-    site: '/',
-    code: '/'
+    site: 'https://ecstatic-kowalevski-acc5df.netlify.app/',
+    code: 'https://github.com/pro-munachi/New-Portfolio'
   },
   {
     id: 2,
