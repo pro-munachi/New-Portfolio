@@ -12,14 +12,19 @@ export const Container = styled.div`
     padding-top: 10%;
     padding-bottom: 12%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     .image {
       text-align: center;
+      margin: 10px 0;
       img {
         border-radius: 10px;
         width: 20%;
       }
     }
     .intro {
+      margin: 10px 0;
       h1 {
         font-size: 34px;
       }
@@ -28,6 +33,7 @@ export const Container = styled.div`
       }
     }
     .social {
+      margin: 10px 0;
       .social-link {
         display: flex;
         p {
