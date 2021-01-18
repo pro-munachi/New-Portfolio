@@ -3,6 +3,7 @@ import Home from '../component/Home'
 import MobileHome from '../component/MobileHome'
 import Portfolio from '../component/Portfolio'
 import Navbar from '../component/Navbar'
+import Footer from '../component/Footer'
 import { Contain } from '../Styles/HomeStyle'
 
 const HomeScreen = () => {
@@ -15,6 +16,7 @@ const HomeScreen = () => {
       <div className='mobile'>
         <Navbar />
         <MobileHome />
+        <Footer />
       </div>
     </Contain>
   )

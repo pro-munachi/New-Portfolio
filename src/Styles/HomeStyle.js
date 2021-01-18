@@ -122,6 +122,7 @@ export const Contain = styled.div`
   .mobile {
     display: none;
     background: black;
+    height: 100vh;
     @media (max-width: 1000px) {
       display: block;
     }

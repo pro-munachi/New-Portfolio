@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from '../Styles/MobileHomeStyle'
 import { Bounce, Roll } from 'react-reveal'
+import Footer from './Footer'
 
 const MobileHome = () => {
   return (
@@ -85,17 +86,6 @@ const MobileHome = () => {
                 </p>
               </div>
             </div>
-            <div className='inspire'>
-              Inspired by
-              <a
-                href='https://kadet.dev/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                kadet
-              </a>
-            </div>
-            <div className='copy'>Copyright &copy; Munachi</div>
           </div>
         </Bounce>
       </div>
