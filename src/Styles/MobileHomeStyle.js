@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   color: #777778;
-  height: 75vh;
+  height: 75%;
   .home {
     width: 90%;
     margin: auto;
