@@ -127,12 +127,6 @@ export const Contain = styled.div`
     overflow: auto;
     @media (max-width: 1000px) {
       display: block;
-      .vh {
-        height: 85vh;
-      }
-      .mb {
-        height: 15vh;
-      }
     }
   }
 `
