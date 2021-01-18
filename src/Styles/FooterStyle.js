@@ -6,4 +6,8 @@ export const Container = styled.footer`
   display: flex;
   flex-direction: column;
   color: white;
+  a {
+    color: white;
+    margin-left: 4px;
+  }
 `

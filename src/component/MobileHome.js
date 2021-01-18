@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container } from '../Styles/MobileHomeStyle'
 import { Bounce, Roll } from 'react-reveal'
-import Footer from './Footer'
 
 const MobileHome = () => {
   return (
