@@ -14,9 +14,13 @@ const HomeScreen = () => {
         <Portfolio />
       </div>
       <div className='mobile'>
-        <Navbar />
-        <MobileHome />
-        <Footer />
+        <div className='vh'>
+          <Navbar />
+          <MobileHome />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
     </Contain>
   )
