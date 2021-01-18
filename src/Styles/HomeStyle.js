@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 50%;
+  font-family: 'Helvetica Neue';
   height: 100vh;
   color: #777778;
   background: black;
@@ -123,10 +124,14 @@ export const Contain = styled.div`
     display: none;
     background: black;
     height: 100vh;
+    overflow: auto;
     @media (max-width: 1000px) {
       display: block;
       .vh {
-        height: 90vh;
+        height: 85vh;
+      }
+      .mb {
+        height: 15vh;
       }
     }
   }

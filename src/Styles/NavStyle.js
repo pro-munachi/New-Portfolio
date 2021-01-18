@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.nav`
   display: none;
   align-items: center;
+  font-family: 'Helvetica Neue';
   width: 100wh;
   height: auto;
   background: black;

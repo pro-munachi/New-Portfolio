@@ -18,7 +18,7 @@ const HomeScreen = () => {
           <Navbar />
           <MobileHome />
         </div>
-        <div>
+        <div className='mb'>
           <Footer />
         </div>
       </div>

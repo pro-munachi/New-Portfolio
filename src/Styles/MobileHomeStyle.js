@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   color: #777778;
   height: 75vh;
+  font-family: 'Droid Sans';
   .home {
     width: 90%;
     margin: auto;

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   width: 50%;
   color: #777778;
+  font-family: 'Helvetica Neue';
   overflow: auto;
   height: 100vh;
   @media (max-width: 1000px) {

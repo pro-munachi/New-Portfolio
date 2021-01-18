@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 50%;
   background: black;
   position: relative;
+  font-family: 'Helvetica Neue';
   color: #777778;
   height: 100vh;
   overflow: auto;
