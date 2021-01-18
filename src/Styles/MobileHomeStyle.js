@@ -12,6 +12,9 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    @media (max-width: 500px) {
+      justify-content: center;
+    }
     .image {
       text-align: center;
       margin: 10px 0;
@@ -21,7 +24,6 @@ export const Container = styled.div`
       }
     }
     .intro {
-      margin: 10px 0;
       h1 {
         font-size: 31px;
       }
@@ -30,7 +32,7 @@ export const Container = styled.div`
       }
     }
     .button {
-      margin: 10px 0;
+      margin: 5px 0;
       button {
         width: 120px;
         height: 45px;
@@ -55,6 +57,12 @@ export const Container = styled.div`
           p {
             font-size: 18px;
             margin: auto;
+            :hover {
+              color: #777778;
+            }
+            @media (max-width: 500px) {
+              font-size: 15px;
+            }
             a {
               text-decoration: none;
               color: white;
