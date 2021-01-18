@@ -72,9 +72,12 @@ export const Container = styled.div`
           width: 120px;
           height: 40px;
           background: #101011;
+          border-bottom-left-radius: 12px;
+          border-top-right-radius: 12px;
+          border-top-left-radius: 0;
+          border-bottom-right-radius: 0;
           color: white;
           font-size: 14.5px;
-          border-radius: 5px;
         }
       }
     }

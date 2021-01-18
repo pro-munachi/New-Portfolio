@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from '../Styles/MobileHomeStyle'
 import { Bounce, Roll } from 'react-reveal'
+import { NavLink } from 'react-router-dom'
 
 const MobileHome = () => {
   return (
@@ -38,6 +39,13 @@ const MobileHome = () => {
             </p>
           </Bounce>
         </div>
+        <Roll>
+          <div className='button'>
+            <NavLink to='/portfolio'>
+              <button>Portfolio</button>
+            </NavLink>
+          </div>
+        </Roll>
         <Bounce>
           <div className='footer'>
             <div className='social'>

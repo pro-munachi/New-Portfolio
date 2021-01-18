@@ -2,17 +2,16 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   color: #777778;
-  height: 75vh;
+  height: 80vh;
   font-family: 'Droid Sans';
   .home {
     width: 90%;
     margin: auto;
-    margin-top: 5%;
     padding-top: 10%;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     .image {
       text-align: center;
       margin: 10px 0;
@@ -30,17 +29,32 @@ export const Container = styled.div`
         font-size: 17px;
       }
     }
+    .button {
+      margin: 20px 0;
+      button {
+        width: 120px;
+        height: 45px;
+        border-top-right-radius: 18px;
+        border-bottom-left-radius: 18px;
+        background: transparent;
+        color: white;
+        border: 2px solid #777778;
+        font-size: 14px;
+      }
+    }
     .footer {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       .social {
-        margin: 10px 0;
+        margin: 20px 0;
+        text-align: center;
         .social-link {
           display: flex;
+
           p {
             font-size: 18px;
-            margin: 8px 0 8px 8px;
+            margin: auto;
             a {
               text-decoration: none;
               color: white;
