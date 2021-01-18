@@ -30,7 +30,7 @@ export const Container = styled.div`
       }
     }
     .button {
-      margin: 20px 0;
+      margin: 10px 0;
       button {
         width: 120px;
         height: 45px;
