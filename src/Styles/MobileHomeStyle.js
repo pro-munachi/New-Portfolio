@@ -25,7 +25,7 @@ export const Container = styled.div`
     }
     .intro {
       h1 {
-        font-size: 31px;
+        font-size: 32px;
       }
       p {
         font-size: 17px;
